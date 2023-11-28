@@ -10,9 +10,9 @@ public class Woodoo
   // 
 }
 
-public class Lists
+public class Ejemplo
 {
-  public void Ejemplo() 
+  public void Lists() 
   {
     // List - 1,2,3, ...
     // Set - without duble
@@ -31,6 +31,21 @@ public class Lists
     numbers.remove(0);
     numbers.addLast(5);
     System.out.print(numbers.getLast());
+  }
+
+  public void Switcher(int x)
+  {
+    switch(x) {
+      case '3':
+        System.out.print('Tres');
+        break;
+      case '7':
+        System.out.print('Siete');
+        break;
+      default:
+        System.out.print('Otro');
+        break;
+    }
   }
 }
 
