@@ -17,8 +17,8 @@ public class Terminator()
   private String model;
   private int year = 2023;
   private float weight = 88.5;
-  private double criptoPrice = 123.0000000123;
-  private String gender;  
+  private Double criptoPrice = 123.0000000123;
+  private String gender = 'man';  
   
   // constructor 1
   public Terminator Terminator(String name)
@@ -43,11 +43,19 @@ public class Terminator()
     } else {
       System.out.print('Tiene gender: woman.');
     }
+    if (!empty(label)) {
+      System.out.print('Y tiene label: ' + label + '. ');
+    }
   }
 
-  public void getModel(String name)
+  public void getModel()
   {
     System.out.print('Eso es model ' + model);
+  }
+
+  public getCriptoPrice()
+  {
+    System.out.print('Este terminator cuesta ' + criptoPrice + '. ');
   }
 
   public void setLabel()
@@ -59,5 +67,21 @@ public class Terminator()
     
     System.out.print('El Terminator ' + model + ' se estableció label ' + val + '. ');
   }
+
+  public void setCriptoPrice(Double price)
+  {
+    this.criptoPrice = price;
+  }
 }
-  
+
+Terminator termik_nata = Terminator('Natasha');
+termik_nata.getCriptoPrice(); 
+// 123.0000000123 USDT
+termik_nata.setLabel(); 
+// Indica un label para Terminator (string): minus
+// El Terminator Natasha se estableció label minus.
+
+Terminator termit = Terminator('Termit-T1', '2023');
+termit.getInfo();
+termit.getModel();
+termit.setCriptoPrice(1.1);
