@@ -1,4 +1,6 @@
-//import javax.
+package ATB-Terminator;
+
+import java.util.Scanner;
   
 /**
  * Woodoo на Анастасии 
@@ -24,8 +26,8 @@ public class Terminator()
     this.model = name;
   }
 
-  // constructor 2
-  public Terminator Terminator(String name, int year)
+  // constructor 2 
+  Terminator Terminator(String name, int year)
   {
     this.model = name;
     this.year = year;
@@ -46,6 +48,16 @@ public class Terminator()
   public void getModel(String name)
   {
     System.out.print('Eso es model ' + model);
+  }
+
+  public void setLabel()
+  {
+    System.out.print('Indica un label para Terminator (string):');
+    Scanner scanner_model = new Scanner(System.in);
+    String val = scanner_model.nextString();
+    this.label = label;
+    
+    System.out.print('El Terminator ' + model + ' se estableció label ' + val + '. ');
   }
 }
   
