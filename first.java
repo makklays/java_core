@@ -10,6 +10,29 @@ public class Woodoo()
   // 
 }
 
+public class Lists()
+{
+  public void Ejemplo() 
+  {
+    // List - 1,2,3, ...
+    // Set - without duble
+    // Map - 'one', 'two', 'three', ...
+    
+    ArrayList <Float> numbers = new ArrayList <> (1);
+    LinkedList <String> names = new LinkedList <> ();
+  
+    ArrayList <int> numbers = new ArrayList <> ();
+    numbers.addFirst(1);
+    numbers.addFirst(2);
+    System.out.print(numbers.size());
+    
+    numbers.clear();
+    numbers.add(1);
+    numbers.remove(0);
+    numbers.addLast(5);
+    System.out.print(numbers.getLast());
+  }
+}
 
 public class Terminator()
 {
