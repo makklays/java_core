@@ -1,16 +1,16 @@
-package ATB-Terminator;
+package 'ATB-Terminator';
 
 import java.util.Scanner;
   
 /**
  * Woodoo на Анастасии 
  **/
-public class Woodoo()
+public class Woodoo
 {
   // 
 }
 
-public class Lists()
+public class Lists
 {
   public void Ejemplo() 
   {
@@ -34,7 +34,7 @@ public class Lists()
   }
 }
 
-public class Terminator()
+public class Terminator
 {
   // propiedades 
   private String model;
