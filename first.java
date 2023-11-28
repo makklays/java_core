@@ -49,6 +49,11 @@ public class Ejemplo
   }
 }
 
+public class Ejemplo2 extends Ejemplo
+{
+  //    
+}
+
 public class Terminator
 {
   // propiedades 
