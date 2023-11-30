@@ -47,6 +47,23 @@ public class Ejemplo
         break;
     }
   }
+
+  public void Lists_for()
+  {
+    int x = 10;
+    while (x <= 20) {
+      System.out.println(x*x);
+      x++;
+    }
+  }
+
+  public void min_in_array()
+  {
+    int[] x = {-2, 12, 3, 1, -3, -4, 5}
+    Arrays.sort(x);
+    int min = 0;
+    min = x[0];
+  }
 }
 
 public class Ejemplo2 extends Ejemplo
