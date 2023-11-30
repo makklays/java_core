@@ -47,7 +47,7 @@ public class Ejemplo
         break;
     }
   }
-
+  
   public void Lists_for()
   {
     int x = 10;
@@ -56,13 +56,24 @@ public class Ejemplo
       x++;
     }
   }
-
+  
   public void min_in_array()
   {
     int[] x = {-2, 12, 3, 1, -3, -4, 5}
     Arrays.sort(x);
     int min = 0;
     min = x[0];
+  }
+  
+  public void min_val()
+  {
+    int[] x= new int[] { -1, -3, -12, 2, 5 }
+    int min = 0;
+    for (int i=0; i < x.length; i++) {
+      if (x[i] < min)
+        min = x[i];
+      i++;
+    }
   }
 }
 
