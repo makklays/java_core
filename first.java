@@ -62,7 +62,32 @@ public class Ejemplo
     System.out.println("Los valores: " + values); // Los valores: [John Connor Primero, Jane Busca Travolta, Sara Connor Primera] 
 
     // 
-    
+    System.out.println( passportIdAndName.size() ); // cantidad de elementos
+    System.out.println( passportIdAndName.clear() ); // limpiar todos elementos 
+
+    // 
+    if (!passportIdAndName.isEmpty()) {
+      System.put.println(passportIdAndName);
+    }
+
+    // de segunda a primero HashMap 
+    HashMap <Integer, String> passportIdAndName1 = new HashMap<>();
+    HashMap <Integer, String> passportIdAndName2 = new HashMap<>();
+
+    passportIdAndName1.put(121212, "John Connor Primero");
+    passportIdAndName1.put(234512, "Jane Busca Travolta");
+
+    passportIdAndName2.put(121212, "John Connor Primero");
+    passportIdAndName2.put(234512, "Jane Busca Travolta");
+
+    passportIdAndName1.putAll(passportIdAndName2);
+    System.out.println( passportIdAndName1 );
+
+    // for 
+    for (Map.Entry entry : passportIdAndName.entrySet())
+    {
+      System.out.println( entry );
+    }
   }
 
   public void Switcher(int x)
