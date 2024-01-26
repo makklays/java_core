@@ -37,7 +37,7 @@ public class Ejemplo
 
     // --- Map ---
     // key and value 
-    HashMap <Integer, String> passportIdAndName = new HashMap<> ();
+    HashMap <Integer, String> passportIdAndName = new HashMap<>();
     passportIdAndName.put(121212, "John Connor Primero");
     passportIdAndName.put(234512, "Jane Busca Travolta");
     passportIdAndName.put(425487, "Sara Connor Primera");
@@ -53,6 +53,16 @@ public class Ejemplo
     // serch key or value
     System.out.println( passportIdAndName.constainsKey(22222) ); // false
     System.out.println( passportIdAndName.constainsValue("John Connor Primero") ); // true 
+
+    // obtener la lista de todos las llaves y los valores
+    Set <Integer> keys = passportIdAndName.keySet();
+    System.out.println("Las llaves: " + keys);
+
+    ArrayList <String> values = new ArrayList<String>(passportIdAndName.values());
+    System.out.println("Los valores: " + values);
+
+    // 
+    
   }
 
   public void Switcher(int x)
