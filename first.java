@@ -49,6 +49,10 @@ public class Ejemplo
     // all names
     passportIdAndName.remove(425487);
     System.out.println(passportIdAndName);
+
+    // serch key or value
+    System.out.println( passportIdAndName.constainsKey(425487) );
+    System.out.println( passportIdAndName.constainsValue("John Connor Primero") );
   }
 
   public void Switcher(int x)
