@@ -34,6 +34,14 @@ public class Ejemplo
     System.out.print(numbers.getLast());
 
     // --- Set ---
+    Set <Integer> mySets = new Set<>(5);
+    mySet.put(1);
+    mySet.put(2);
+    mySet.put(3);
+    mySet.put(4);
+    mySet.put(5);
+
+    System.out.println( mySet );
 
     // --- Map ---
     // key and value 
