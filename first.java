@@ -51,8 +51,8 @@ public class Ejemplo
     System.out.println(passportIdAndName);
 
     // serch key or value
-    System.out.println( passportIdAndName.constainsKey(425487) );
-    System.out.println( passportIdAndName.constainsValue("John Connor Primero") );
+    System.out.println( passportIdAndName.constainsKey(22222) ); // false
+    System.out.println( passportIdAndName.constainsValue("John Connor Primero") ); // true 
   }
 
   public void Switcher(int x)
