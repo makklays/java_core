@@ -17,7 +17,8 @@ public class Ejemplo
     // List - 1,2,3, ...
     // Set - without duble
     // Map - 'one', 'two', 'three', ...
-    
+
+    // --- List ---
     ArrayList <Float> numbers = new ArrayList <> (1);
     LinkedList <String> names = new LinkedList <> ();
   
@@ -31,6 +32,23 @@ public class Ejemplo
     numbers.remove(0);
     numbers.addLast(5);
     System.out.print(numbers.getLast());
+
+    // --- Set ---
+
+    // --- Map ---
+    // key and value 
+    HashMap <Integer, String> passportIdAndName = new HashMap<> ();
+    passportIdAndName.put(121212, "John Connor Primero");
+    passportIdAndName.put(234512, "Jane Busca Travolta");
+    passportIdAndName.put(425487, "Sara Connor Primera");
+
+    // get Jane
+    String janeName = passportIdAndName.get(234512);
+    System.out.println(janeName);
+
+    // all names
+    passportIdAndName.remove(425487);
+    System.out.println(passportIdAndName);
   }
 
   public void Switcher(int x)
