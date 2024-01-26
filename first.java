@@ -56,10 +56,10 @@ public class Ejemplo
 
     // obtener la lista de todos las llaves y los valores
     Set <Integer> keys = passportIdAndName.keySet();
-    System.out.println("Las llaves: " + keys);
+    System.out.println("Las llaves: " + keys); // Las llaves: [121212, 234512, 425487] 
 
     ArrayList <String> values = new ArrayList<String>(passportIdAndName.values());
-    System.out.println("Los valores: " + values);
+    System.out.println("Los valores: " + values); // Los valores: [John Connor Primero, Jane Busca Travolta, Sara Connor Primera] 
 
     // 
     
