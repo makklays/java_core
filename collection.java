@@ -73,8 +73,11 @@ myQueue.remove("second kiss");
 Kiss kiss = new Kiss("Alexander");
 myQueue.push(kiss); // add element first at queue 
 
-Kiss myKiss = kiss.pop(); // get first element and luego remove
+Kiss myKiss = kiss.pop(); // get first element and luego remove 
 
+System.out.println( myQueue.pollFirst() ); // get first element and luego remove element 
+System.out.println( myQueue.pollLast() ); // get last element and luego remove element 
 
-
+System.out.println( myQueue.peekFirst() ); // get first element and luego remove element 
+System.out.println( myQueue.peekLast() ); // get last element and luego remove element 
 
