@@ -61,3 +61,20 @@ animals.removeLast();
 
 System.out.println( animals.getFirst() );
 
+# Queue 
+
+priorityQueue myQueue = new priorityQueue<>();
+myQueue.add("first kiss");
+myQueue.add("second kiss");
+myQueue.addFirst("my first kiss");
+myQueue.addLast("my second kiss");
+myQueue.remove("second kiss");
+
+Kiss kiss = new Kiss("Alexander");
+myQueue.push(kiss); // add element first at queue 
+
+Kiss myKiss = kiss.pop(); // get first element and luego remove
+
+
+
+
