@@ -1,8 +1,8 @@
 
 interface 'Collection'
  
-List  - ArrayList - add(value), add(index, value), remove(index), contains(value), clear(), size() - есть индексы 
-      - LinkedList 
+List  - ArrayList - add(value), add(index, value), remove(index), contains(value), clear(), size() - есть индексы - быстро обход - медленно add() и remove() 
+      - LinkedList - быстро add() и remove() - медленно обход
       - Vector 
       - Stack 
 Set   - HashSet   add(value), remove(value), contains(value), clear(), size() - нет индексов у Set 
