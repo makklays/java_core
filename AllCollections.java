@@ -59,6 +59,7 @@ orders.put("USD", 100);
 orders.put("EUR", 100);
 orders.put("AUD", 100);
 for (String key : orders.keySet()) {
+//for (String value : orders.values()) {
   Integer amount = orders.get(key); 
   System.out.println(key + " --> " + amount);
 }
