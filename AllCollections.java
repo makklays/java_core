@@ -17,6 +17,9 @@ Queue - PriorityQueue -
 //   
 ArrayList o HashMap 
 
+ add(int index, Cat element) - anadir nuevo 
+ set(int index, Cat element) - insentar en el index
+
 List<User> user = new List<User>();
 HashSet<Тип> ім'я = new HashSet<Тип>();
 HashMap<TКлюч, TЗначення> ім'я = new HashMap<TКлюч, TЗначення>();
