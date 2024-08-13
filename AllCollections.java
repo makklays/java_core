@@ -1,7 +1,7 @@
 
 interface 'Collection'
  
-List  - ArrayList - add(value), add(index, value), remove(index), clear(), size() - есть индексы 
+List  - ArrayList - add(value), add(index, value), remove(index), contains(value), clear(), size() - есть индексы 
       - LinkedList 
       - Vector 
       - Stack 
