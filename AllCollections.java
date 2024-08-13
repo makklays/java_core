@@ -9,7 +9,7 @@ Set   - HashSet   add(value), remove(value), contains(value), clear(), size() - 
       - TreeSet 
       - LinkedHashSet 
 Map   - HashMap - put(ТКлюч key, ТЗначення value), get(ТКлюч key), containsKey(ТКлюч key), containsValue(ТЗначення value), remove(ТКлюч key), clear(), size(), Set<ТКлюч> keySet(), Collection<ТЗначення> values(), Set<Map.Entry<TКлюч, TЗначення>> entrySet() - есть индексы 
-      - TreeMap
+      - TreeMap - сортировка за ключами - implement Comparable и определить compareTo()
       - HashTable 
 Queue - PriorityQueue - 
       - ArrayDequе 
