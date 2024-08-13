@@ -15,7 +15,9 @@ Queue - PriorityQueue -
       - ArrayDequе 
 
 //   
-ArrayList o HashMap 
+ArrayList o HashMap - схожи 
+// 
+ArrayList, HashSet и HashMap - используются чаще всего  
 
   add(int index, Cat element) - anadir nuevo 
   set(int index, Cat element) - insertar en index anterior 
