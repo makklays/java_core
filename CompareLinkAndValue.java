@@ -9,6 +9,6 @@ System.out.println(a == b); // false
 
 String a = "aaa";
 String b = "aaa";
-System.out.println(a == b); // false 
-System.out.println(a.equels(b)); // true :-)
+System.out.println(a == b); // false - for link 
+System.out.println(a.equels(b)); // true :-) for value
 
