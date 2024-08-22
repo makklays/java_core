@@ -26,6 +26,7 @@ public static void main(String[] args)
 
   Print robot11 = new Robot("Wally");
   Tread myThread11 = new Tread(robot11);
+  myThread11.sleep(500);
   myThread11.start();
 }
 
