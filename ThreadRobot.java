@@ -20,13 +20,13 @@ class Robot implements Runnable
 
 public static void main(String[] args) 
 {
-  Print print = new Print();
-  
-  Tread myThread1 = new Tread(print);
+  Print robot1 = new Robot("Verder");
+  Tread myThread1 = new Tread(robot1);
   myThread1.start();
 
-  Tread myThread2 = new Tread(print);
-  myThread2.start();
+  Print robot11 = new Robot("Wally");
+  Tread myThread11 = new Tread(robot11);
+  myThread11.start();
 }
 
 .
