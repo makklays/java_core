@@ -5,14 +5,14 @@ class Robot implements Runnable
 {
   private String title;
   
-  public void Robot(title)
+  public Robot(Sting title)
   {
     this.title = title;
   }
   
   public void run() 
   {
-    System.out.println("Printing...");
+    System.out.println("I'm robot " + this.title);
   }
 }
 
