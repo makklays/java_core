@@ -1,0 +1,21 @@
+
+Значение по умолчанию
+
+Если ты не указал параметр fetch для аннотации @ManyTo…, то Hibernate будет использовать значения по умолчанию.
+
+Они немного отличаются для различных типов аннотаций. Для аннотаций @OneToOne и @ManyToOne – это EAGER, для аннотаций @OneToMany и @ManyToMany – это LAZY. 
+Запомнить просто – если мы ссылаемся на один объект, то он будет загружен полностью. Если ссылаемся на коллекцию, то она будет загружена при первом обращении к ней.
+
+@Entity
+@Table(name="user")
+class User {
+   @Column(name="id")
+   public Integer id;
+ 
+   @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+   @JoinColumn(name = "user_id")
+   public List<Comment> comments;
+}
+
+
+/
