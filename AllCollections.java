@@ -23,8 +23,9 @@ ArrayList, HashSet и HashMap - используются чаще всего
   set(int index, Cat element) - insertar en index anterior 
 
 List<User> user = new List<User>();
-HashSet<Тип> ім'я = new HashSet<Тип>();
-HashMap<TКлюч, TЗначення> ім'я = new HashMap<TКлюч, TЗначення>();
+HashSet<Тип> aa = new HashSet<Тип>();
+HashMap<Ключ, Значення> aa = new HashMap<Ключ, Значення>();
+
 String[] arr = new String[3];
 arr[0] = "USD";
 arr[1] = "EUR";
