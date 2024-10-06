@@ -34,7 +34,7 @@ public class Ejemplo
     System.out.print(numbers.getLast());
 
     // --- Set ---
-    Set <Integer> mySets = new Set<>(5);
+    Set <Integer> mySet = new HashSet<>(5);
     mySet.put(1);
     mySet.put(2);
     mySet.put(3);
