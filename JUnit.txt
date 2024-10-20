@@ -30,6 +30,10 @@ public void whenAssertingEquality_thenEqual() {
     assertEquals(expected, actual);
 }
 
+Также можно указать сообщение, которое будет отображаться в случае сбоя утверждения:
+
+assertEquals("failure - strings are not equal", expected, actual);
+
 expected - esperada 
 actual   - real
 
