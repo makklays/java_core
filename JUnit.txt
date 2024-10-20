@@ -21,8 +21,20 @@ void givenOddNumber_whenCheckingIsNumberEven_thenFalse() {
     Assertions.assertFalse(result);
 } 
 
+Еще пример теста УТВЕРДИТЬ РАВНО:
+@Test
+public void whenAssertingEquality_thenEqual() {
+    String expected = "ForEach";
+    String actual = "ForEach";
 
-Этот модуль включает новые модели программирования и расширения для написания тестов в JUnit 5. Новые аннотации по сравнению с JUnit 4:
+    assertEquals(expected, actual);
+}
+
+expected - esperada 
+actual   - real
+
+
+JUnit 5 включает новые модели программирования и расширения для написания тестов в JUnit 5. Новые аннотации по сравнению с JUnit 4:
 
     @TestFactory — обозначает метод, который является тестовой фабрикой для динамических тестов.
     @DisplayName — определяет пользовательское отображаемое имя для тестового класса или тестового метода.
