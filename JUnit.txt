@@ -1,0 +1,94 @@
+
+JUnit 5 
+
+Этот модуль включает новые модели программирования и расширения для написания тестов в JUnit 5. Новые аннотации по сравнению с JUnit 4:
+
+    @TestFactory — обозначает метод, который является тестовой фабрикой для динамических тестов.
+    @DisplayName — определяет пользовательское отображаемое имя для тестового класса или тестового метода.
+    @Nested — обозначает, что аннотированный класс является вложенным, нестатическим тестовым классом.
+    @Tag — объявляет теги для фильтрации тестов
+    @ExtendWith — регистрирует пользовательские расширения
+    @BeforeEach — обозначает, что аннотированный метод будет выполняться перед каждым тестовым методом (ранее @Before )
+    @AfterEach — означает, что аннотированный метод будет выполняться после каждого тестового метода (ранее @After )
+    @BeforeAll — означает, что аннотированный метод будет выполняться перед всеми тестовыми методами в текущем классе (ранее @BeforeClass )
+    @AfterAll — означает, что аннотированный метод будет выполнен после всех тестовых методов в текущем классе (ранее @AfterClass )
+    @Disable — отключает тестовый класс или метод (ранее @Ignore )
+
+Группы аннотаций деляться на следующие группы, отвечающие за выполнение: до тестов, во время тестов (необязательно) и после тестов:
+
+////////// ДО ////////////////
+@BeforeAll и @BeforeEach
+@BeforeAll
+static void setup() {
+    log.info("@BeforeAll - executes once before all test methods in this class");
+}
+@BeforeEach
+void init() {
+    log.info("@BeforeEach - executes before each test method in this class");
+}
+
+///////// ВО ВРЕМЯ ///////////
+@DisplayName и @Disabled
+@DisplayName("Single test successful")
+@Test
+void testSingleSuccessTest() {
+    log.info("Success");
+}
+@Test
+@Disabled("Not implemented yet")
+void testShowSomething() {
+}
+
+////////// ПОСЛЕ ////////////
+@AfterEach и @AfterAll
+@AfterEach
+void tearDown() {
+    log.info("@AfterEach - executed after each test method.");
+}
+@AfterAll
+static void done() {
+    log.info("@AfterAll - executed after all test methods.");
+}
+  
+Утверждения и предположения 
+
+////////// УТВЕРЖДЕНИЯ ////////
+@Test
+void lambdaExpressions() {
+    List numbers = Arrays.asList(1, 2, 3);
+    assertTrue(numbers.stream()
+      .mapToInt(Integer::intValue)
+      .sum() > 5, () -> "Sum should be greater than 5");
+}
+@Test
+void groupAssertions() {
+   int[] numbers = {0, 1, 2, 3, 4};
+   assertAll("numbers",
+       () -> assertEquals(numbers[0], 1),
+       () -> assertEquals(numbers[3], 3),
+       () -> assertEquals(numbers[4], 1)
+   );
+}
+
+////////// ПРЕДПОЛОЖЕНИЯ ////////
+@Test
+void trueAssumption() {
+    assumeTrue(5 > 1);
+    assertEquals(5 + 2, 7);
+}
+@Test
+void falseAssumption() {
+    assumeFalse(5 < 1);
+    assertEquals(5 + 2, 7);
+}
+@Test
+void assumptionThat() {
+    String someString = "Just a string";
+    assumingThat(
+        someString.equals("Just a string"),
+        () -> assertEquals(2 + 2, 4)
+    );
+}
+
+
+.
