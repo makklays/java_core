@@ -1,0 +1,12 @@
+
+Получение текущего пользователя после авторизации:
+https://for-each.dev/lessons/b/-get-user-in-spring-security
+
+// Example:
+
+Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+String currentPrincipalName = authentication.getName();
+User authUser = userService.getUserByEmail(currentPrincipalName);
+
+
+..
