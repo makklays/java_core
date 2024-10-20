@@ -1,6 +1,27 @@
 
 JUnit 5 
 
+Для методов, которые тестируются добавляется слово @Test 
+Имеем метод: 
+public boolean isNumberEven(Integer number) {
+    return number % 2 == 0;
+}
+
+Тестируем его:
+@Test
+void givenEvenNumber_whenCheckingIsNumberEven_thenTrue() {
+    boolean result = bean.isNumberEven(8);
+
+    Assertions.assertTrue(result);
+}
+@Test
+void givenOddNumber_whenCheckingIsNumberEven_thenFalse() {
+    boolean result = bean.isNumberEven(3);
+
+    Assertions.assertFalse(result);
+} 
+
+
 Этот модуль включает новые модели программирования и расширения для написания тестов в JUnit 5. Новые аннотации по сравнению с JUnit 4:
 
     @TestFactory — обозначает метод, который является тестовой фабрикой для динамических тестов.
@@ -27,7 +48,7 @@ void init() {
     log.info("@BeforeEach - executes before each test method in this class");
 }
 
-///////// ВО ВРЕМЯ ///////////
+//////////// ВО ВРЕМЯ ///////////////////
 @DisplayName и @Disabled
 @DisplayName("Single test successful")
 @Test
@@ -39,7 +60,7 @@ void testSingleSuccessTest() {
 void testShowSomething() {
 }
 
-////////// ПОСЛЕ ////////////
+///////////// ПОСЛЕ /////////////////////
 @AfterEach и @AfterAll
 @AfterEach
 void tearDown() {
@@ -52,7 +73,7 @@ static void done() {
   
 Утверждения и предположения 
 
-////////// УТВЕРЖДЕНИЯ ////////
+/////////// УТВЕРЖДЕНИЯ //////////////////
 @Test
 void lambdaExpressions() {
     List numbers = Arrays.asList(1, 2, 3);
@@ -70,7 +91,7 @@ void groupAssertions() {
    );
 }
 
-////////// ПРЕДПОЛОЖЕНИЯ ////////
+/////////// ПРЕДПОЛОЖЕНИЯ //////////////////
 @Test
 void trueAssumption() {
     assumeTrue(5 > 1);
@@ -87,6 +108,44 @@ void assumptionThat() {
     assumingThat(
         someString.equals("Just a string"),
         () -> assertEquals(2 + 2, 4)
+    );
+}
+
+/////////// Тестирование исключений //////////
+@Test
+void shouldThrowException() {
+    Throwable exception = assertThrows(UnsupportedOperationException.class, () -> {
+      throw new UnsupportedOperationException("Not supported");
+    });
+    assertEquals("Not supported", exception.getMessage());
+}
+@Test
+void assertThrowsException() {
+    String str = null;
+    assertThrows(IllegalArgumentException.class, () -> {
+      Integer.valueOf(str);
+    });
+}
+
+//////////// Наборы тестов /////////////////// 
+@Suite
+@SelectPackages("com.foreach")
+@ExcludePackages("com.foreach.suites")
+public class AllUnitTest {}
+
+@Suite
+@SelectClasses({AssertionTest.class, AssumptionTest.class, ExceptionTest.class})
+public class AllUnitTest {}
+
+//////////// Динамические тесты ///////////////
+@TestFactory
+Stream<DynamicTest> translateDynamicTestsFromStream() {
+    return in.stream()
+      .map(word ->
+          DynamicTest.dynamicTest("Test translate " + word, () -> {
+            int id = in.indexOf(word);
+            assertEquals(out.get(id), translate(word));
+          })
     );
 }
 
