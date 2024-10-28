@@ -1,0 +1,19 @@
+
+/* TRIM */
+String str = " string Text ";
+str.trim();  // "string Text"
+
+/* RTRIM */
+int i = s.length()-1;
+while (i >= 0 && Character.isWhitespace(s.charAt(i))) {
+    i--;
+}
+String rtrim = s.substring(0,i+1);
+
+/* LTRIM */
+int i = 0;
+while (i < s.length() && Character.isWhitespace(s.charAt(i))) {
+    i++;
+}
+String ltrim = s.substring(i);
+
