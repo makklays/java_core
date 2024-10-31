@@ -7,9 +7,11 @@ public class MockitoAnnotationTest {
     MyClass myClass = Mockito.mock(MyClass.class);
 
     // Второй способ – это обертки над существующими объектами 
-    // 
+    // ИмяКласса имяПеременной = Mockito.spy(объект); 
+    
 }
 
+// 1-й способ 
 @ExtendWith(MockitoExtension.class)
 class MockTest {
     @Test
@@ -30,6 +32,18 @@ class MockTest {
     @Test
     public void whenNotUseMockAnnotation_thenCorrect() {
         //эти методы не будут ничего делать – это заглушки
+        mockList.add("one");
+        mockList.add("two");
+    }
+}
+
+// 2-й способ - пример 
+@ExtendWith(MockitoExtension.class)
+class SpyTest {
+    @Test
+    public void whenMockAnnotation() {
+        List<String> mockList = Mockito.spy(new ArrayList<String>());
+        //эти методы будут работать!
         mockList.add("one");
         mockList.add("two");
     }
