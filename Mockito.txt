@@ -91,6 +91,20 @@ Mockito.verifyNoMoreInteractions(объект);
 
 Assertions.assertThrows(исключение.class, () -> объект.имяМетода());
 
+// 
+MockedStatic<ИмяКласса>управляющийОбъект = Mockito.mockStatic(ИмяКласса.class);
+управляющийОбъект.when(ИмяКласса::имяМетода).thenReturn(результат);
+@Test
+void givenStaticMethodWithNoArgs () {
+    try (MockedStatic< StaticUtils> utilities =  Mockito.mockStatic( StaticUtils.class)) {
+        //добавляем правило
+         utilities.when(StaticUtils::name).thenReturn("Привет");
+
+        //проверяем, что правило работает
+        assertEquals("Привет", StaticUtils.name());
+    }
+}
+
 
 // примеры кода 
 @ExtendWith(MockitoExtension.class)
