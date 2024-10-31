@@ -1,0 +1,53 @@
+
+// Добавляем 
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>2.2.17</version>
+</dependency>
+
+// 
+class Manager {
+   private static final Logger logger = LoggerFactory.getLogger(Manager.class);
+
+   public boolean processTask(Task task) {
+        logger.debug("processTask id = " + task.getId());
+        try {
+            task.start();
+            task.progress();
+            task.complete();
+            return true;
+        } catch (Exception e) {
+            logger.error("Unknown error", e);
+            return false;
+        }
+    }
+}
+
+// 
+DEBUG
+INFO
+WARN
+ERROR
+FATAL
+
+// пример
+class Manager {
+    private static final Logger logger = LoggerFactory.getLogger(Manager.class);
+
+    public boolean processTask(Task task) {
+        logger.debug("processTask id = " + task.getId());
+        try {
+            task.start();
+            task.progress();
+            task.complete();
+            return true;
+        } catch (Exception e) {
+            logger.error("Unknown error", e);
+            return false;
+        }
+    }
+}
+
+
+//
