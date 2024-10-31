@@ -18,5 +18,19 @@ class MockTest {
     }
 }
 
+// короткая запись кода 
+@ExtendWith(MockitoExtension.class)
+class MockTest {
+    @Mock
+    List mockList;
+
+    @Test
+    public void whenNotUseMockAnnotation_thenCorrect() {
+        //эти методы не будут ничего делать – это заглушки
+        mockList.add("one");
+        mockList.add("two");
+    }
+}
+
 
 //
