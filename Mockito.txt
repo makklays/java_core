@@ -84,6 +84,14 @@ Mockito.doAnswer(функция).when(объект).имяМетода(пара�
 
 Mockito.verify(объект).имяМетода(параметр);
 
+Mockito.verify(объект,количество).имяМетода(параметр);
+
+// кроме указанных вызовов метода, никаких других обращений к объекту не было.
+Mockito.verifyNoMoreInteractions(объект);
+
+Assertions.assertThrows(исключение.class, () -> объект.имяМетода());
+
+
 // примеры кода 
 @ExtendWith(MockitoExtension.class)
 class DoReturnTest {
@@ -174,6 +182,21 @@ class VerifyTest {
 
         //проверяем вызывался ли метод
         Mockito.verify(mockList).get(10);
+    }
+}
+
+@ExtendWith(MockitoExtension.class)
+class ThenThrowTest {
+    @Mock
+    List mockList;
+
+    @Test
+    public void whenMockAnnotation() {
+        //задаем поведение метода (нужно только для демонстрации)
+        Mockito.when(mockList.size()).thenThrow(IllegalStateException.class);
+
+        //проверяем бросится ли IllegalStateException при вызове метода size
+        assertThrows(IllegalStateException.class, () -> mockList.size());
     }
 }
 
