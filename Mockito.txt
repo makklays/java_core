@@ -63,5 +63,61 @@ class SpyTest {
     }
 }
 
+///////// Поведение объектов //////////// 
+Mockito.doReturn(результат).when(объект).имяМетода();
+
+Mockito.when(объект.имяМетода()).thenReturn(результат);
+или 
+Mockito.doReturn(результат).when(объект).имяМетода();
+
+Mockito.doThrow(исключение.class).when(объект).имяМетода();
+или
+Mockito.when(объект.имяМетода()).thenThrow(исключение.class);
+
+Mockito.doThrow(new Исключение()).when(объект).имяМетода();
+
+
+// примеры кода 
+@ExtendWith(MockitoExtension.class)
+class DoReturnTest {
+    @Mock
+    List mockList;
+
+    @Test
+    public void whenMockAnnotation () {
+         //создаем правило: вернуть 10 при вызове метода size
+        Mockito.doReturn(10).when(mockList).size();
+
+        //тут вызывается метод и вернет 10!!
+        assertEquals(10, mockList.size());
+    }
+}
+
+@ExtendWith(MockitoExtension.class)
+class WhenTest {
+    @Mock
+    List mockList;
+
+    @Test
+    public void whenMockAnnotation() {
+        //создаем правило: вернуть 10 при вызове метода size
+        Mockito.when(mockList.size() ).thenReturn(10);
+
+        //тут вызывается метод и вернет 10!!
+        assertEquals(10, mockList.size());
+    }
+}
+
+@ExtendWith(MockitoExtension.class)
+class DoThrowTest {
+    @Mock
+    List mockList;
+
+    @Test
+    public void whenMockAnnotation() {
+        Mockito.when(mockList.size() ).thenThrow(IllegalStateException.class);
+        mockList.size(); //тут кинется исключение
+    }
+}
 
 //
