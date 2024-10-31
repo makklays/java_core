@@ -162,5 +162,20 @@ class DoAnswerTest {
     }
 }
 
+@ExtendWith(MockitoExtension.class)
+class VerifyTest {
+    @Mock
+    List<String> mockList;
+
+    @Test
+    public void whenMockAnnotation() {
+        //вызов метода
+        String name = mockList.get(10);
+
+        //проверяем вызывался ли метод
+        Mockito.verify(mockList).get(10);
+    }
+}
+
 
 //
