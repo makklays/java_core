@@ -1,6 +1,6 @@
 
-@ExtendWith(MockitoExtention.class)
-class MockitoTest {
+@ExtendWith(MockitoExtension.class)
+public class MockitoAnnotationTest {
 
   // 
 
