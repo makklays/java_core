@@ -78,6 +78,8 @@ Mockito.doThrow(new Исключение()).when(объект).имяМетод�
 
 Mockito.doReturn(результат).when(объект).имяМетода(параметр);
 
+Mockito.doReturn("Иван").when(mockList).get(any(int.class));
+
 
 // примеры кода 
 @ExtendWith(MockitoExtension.class)
