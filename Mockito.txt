@@ -76,6 +76,8 @@ Mockito.when(объект.имяМетода()).thenThrow(исключение.c
 
 Mockito.doThrow(new Исключение()).when(объект).имяМетода();
 
+Mockito.doReturn(результат).when(объект).имяМетода(параметр);
+
 
 // примеры кода 
 @ExtendWith(MockitoExtension.class)
@@ -117,6 +119,24 @@ class DoThrowTest {
     public void whenMockAnnotation() {
         Mockito.when(mockList.size() ).thenThrow(IllegalStateException.class);
         mockList.size(); //тут кинется исключение
+    }
+}
+
+@ExtendWith(MockitoExtension.class)
+class ParamsTest {
+    @Mock
+    List mockList;
+
+    @Test
+    public void whenMockAnnotation() {
+        //добавление первого правила
+        Mockito.doReturn("Иван").when(mockList).get(10);
+        //добавление второго правила
+        Mockito.doReturn("Марья").when(mockList).get(500);
+
+        assertEquals("Иван", mockList.get(10));
+        assertEquals("Марья", mockList.get(500));
+
     }
 }
 
