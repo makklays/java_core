@@ -2,8 +2,21 @@
 @ExtendWith(MockitoExtension.class)
 public class MockitoAnnotationTest {
 
-  // 
-
+    // Первый способ – это создать полностью виртуальный объект
+    // ИмяКласса имяПеременной = Mockito.mock(ИмяКласса.class); 
+    MyClass myClass = Mockito.mock(MyClass.class);
 }
+
+@ExtendWith(MockitoExtension.class)
+class MockTest {
+    @Test
+    public void whenNotUseMockAnnotation_thenCorrect() {
+        List mockList = Mockito.mock(ArrayList.class);
+        //эти методы не будут ничего делать – это заглушки
+        mockList.add("one");
+        mockList.add("two");
+    }
+}
+
 
 //
