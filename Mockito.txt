@@ -5,6 +5,9 @@ public class MockitoAnnotationTest {
     // Первый способ – это создать полностью виртуальный объект
     // ИмяКласса имяПеременной = Mockito.mock(ИмяКласса.class); 
     MyClass myClass = Mockito.mock(MyClass.class);
+
+    // Второй способ – это обертки над существующими объектами 
+    // 
 }
 
 @ExtendWith(MockitoExtension.class)
