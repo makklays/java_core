@@ -82,6 +82,8 @@ Mockito.doReturn("Иван").when(mockList).get(any(int.class));
 
 Mockito.doAnswer(функция).when(объект).имяМетода(параметр);
 
+Mockito.verify(объект).имяМетода(параметр);
+
 // примеры кода 
 @ExtendWith(MockitoExtension.class)
 class DoReturnTest {
