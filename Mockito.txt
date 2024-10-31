@@ -80,6 +80,7 @@ Mockito.doReturn(результат).when(объект).имяМетода(па�
 
 Mockito.doReturn("Иван").when(mockList).get(any(int.class));
 
+Mockito.doAnswer(функция).when(объект).имяМетода(параметр);
 
 // примеры кода 
 @ExtendWith(MockitoExtension.class)
@@ -141,5 +142,23 @@ class ParamsTest {
 
     }
 }
+
+@ExtendWith(MockitoExtension.class)
+class DoAnswerTest {
+    @Mock
+    List mockList;
+
+    @Test
+    public void whenMockAnnotation() {
+        Mockito.doAnswer(invocation -> {
+            int parameter = invocation.getArgument(0);
+            return parameter * parameter;
+        }).when(mockList).get(anyInt());
+
+        assertEquals(100, mockList.get(10));
+        assertEquals(25, mockList.get(5));
+    }
+}
+
 
 //
