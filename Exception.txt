@@ -39,6 +39,13 @@ public void Example3() throws IOException, Exception, Throwable, FileNotFoundExc
   }
 }
 
+// try-with-resorces 
+try (MyResource mr = new MyResource()) {
+	System.out.println("MyResource created in try-with-resources");
+} catch (Exception e) {
+	e.printStackTrace();
+}
+
 
 ///////////////////////////////////////////////////////////////////////////////
 try {
