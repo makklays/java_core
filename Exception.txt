@@ -1,7 +1,7 @@
 
 // Exception 
 
-public void Example1() throws IOException, SecurityException {
+public void Example1() throws Exception {
   // exception try-catch
   try {
     int[] myNumbers = {1, 2, 3};
@@ -25,7 +25,7 @@ public void Example2() throws IOException, SecurityException {
 
 // throw statement
 
-public void Example3() throws IOException, NullPointerException, MyException {
+public void Example3() throws IOException, Exception, NullPointerException, MyException {
   // exception throw 
   try {
     int[] myNumbers = {1, 2, 3};
@@ -36,8 +36,6 @@ public void Example3() throws IOException, NullPointerException, MyException {
   
     throw new NullPointerException("нулпоинтер");
     // throw new MyException();
-  
-    throws "aaa";
   }
 }
 
