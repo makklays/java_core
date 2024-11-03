@@ -1,0 +1,25 @@
+
+// Exception
+
+// exception try-catch
+try {
+  int[] myNumbers = {1, 2, 3};
+  System.out.println(myNumbers[10]);
+}  (Exception e) {
+  System.out.println("Something went wrong.");
+}
+
+// exception try-catch-finally 
+try {
+  int[] myNumbers = {1, 2, 3};
+  System.out.println(myNumbers[10]);
+} catch (Exception e) {
+  System.out.println("Something went wrong.");
+} finally {
+  System.out.println("The 'try catch' is finished.");
+}
+
+// throw statement
+
+
+//
