@@ -25,7 +25,7 @@ public void Example2() throws IOException, SecurityException {
 
 // throw statement
 
-public void Example3() throws IOException, SecurityException {
+public void Example3() throws IOException, NullPointerException, MyException {
   // exception throw 
   try {
     int[] myNumbers = {1, 2, 3};
