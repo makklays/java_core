@@ -1,0 +1,38 @@
+
+// 
+Integer[] numbers = new int[] {1, 2, 3, 4, 5};
+numbers.reverse(); // Error - not exist method ((
+
+List<Integer> numbs = Arrays.asList(1, 2, 3, 4, 5);
+Collections.reverse(numbs);
+// 5, 4, 3, 2, 1 
+
+// example 1 
+public class MyClass {
+  static int[] reverse(int a[], int n) {
+    int[] b = new int[n];
+    int j = n;
+    for(i = 0; i < n; i++) {
+      b[j - 1] = a[i];
+      j--;
+    }
+
+    return b;
+  }
+}
+
+int[] arr = {1, 20, 30, 4, 5};
+int[] myArr = MyClass.reverse(arr, arr.length);
+System.out.println("Reversed array is: ");
+for(i = 0; i < myArr.length; i++) { 
+  System.out.println( myArr[i] );
+}
+// Reversed array is: 
+// 5 
+// 4 
+// 30 
+// 20 
+// 1 
+
+
+// 
