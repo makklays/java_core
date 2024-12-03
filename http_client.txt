@@ -11,5 +11,45 @@ HttpResponce<String> responce = client.send(request, BodyHandlers.ofString());
 System.out.println(responce.statusCode());
 System.out.println(responce.body());
 
+//------ BodyHandlers -----------
+    BodyHandlers.ofByteArray
+    BodyHandlers.ofString
+    BodyHandlers.ofFile
+    BodyHandlers.discarding
+    BodyHandlers.replacing
+    BodyHandlers.ofLines
+    BodyHandlers.fromLineSubscriber
+
+//------ examples ------------
+
+HttpResponse<Void> response = client.send(request, BodyHandlers.discarding());
+HttpResponse<String>response = client.send(request, BodyHandlers.ofString());
+HttpResponse<Path> response = client.send(request, BodyHandlers.ofFile(Paths.get("readme.txt")));
+HttpResponse<InputStream> response = client.send(request, BodyHandlers.ofInputStream());
+
+//------- redirect 301 or 302 -----------
+
+HttpResponse response = HttpClient.newBuilder()
+  .followRedirects( HttpClient.Redirect.ALWAYS )
+  .build()
+  .send(request, BodyHandlers.ofString());
+
+Есть всего 3 варианта для редиректа:
+    ALWAYS – всегда;
+    NEVER – никогда;
+    NORMAL – всегда, кроме HTTPS -> HTTP.
+
+//------- Proxy -------------
+
+HttpResponse<String> response = HttpClient.newBuilder()
+  .proxy( ProxySelector.getDefault())
+  .build()
+  .send(request, BodyHandlers.ofString());
+
+HttpResponse response = HttpClient.newBuilder()
+  .proxy(ProxySelector.of(new InetSocketAddress("proxy.microsoft.com", 80)))
+  .build()
+  .send(request, BodyHandlers.ofString());
+
 
 //
