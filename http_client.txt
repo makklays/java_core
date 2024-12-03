@@ -51,5 +51,14 @@ HttpResponse response = HttpClient.newBuilder()
   .build()
   .send(request, BodyHandlers.ofString());
 
+//------- sendAsync() ------------
+
+HttpClient client = HttpClient.newBuilder().build();
+ 
+CompletableFuture<HttpResponse<String>> response = client.sendAsync(
+        request,
+        HttpResponse.BodyHandlers.ofString()
+);
+
 
 //
