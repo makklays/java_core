@@ -1,0 +1,15 @@
+
+//----- HTTP Client ---------
+
+HttpRequest request = HttpRequest.newBuilder( new URI("https://techmatrix18.com/connect") ).build();
+HttpClient client = HttpClient.newBuilder()
+                      .version(Version.HTTP_1_1)
+                      .build();
+
+HttpResponce<String> responce = client.send(request, BodyHandlers.ofString());
+
+System.out.println(responce.statusCode());
+System.out.println(responce.body());
+
+
+//
