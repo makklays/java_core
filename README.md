@@ -1,3 +1,16 @@
+
+### Using Maven and Defaults
+
+Add in `pom.xml`
+
+`<modelVersion>4.0.0</modelVersion>
+
+<artifactId>spring-boot</artifactId>
+
+<packaging>jar</packaging>
+
+<name>spring-boot</name>`
+
 ### Writing the Dockerfile
 
 `FROM openjdk:17-jdk-alpine
