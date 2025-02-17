@@ -41,3 +41,6 @@ Once we know that’s configured, we can run the package goal:
 ## Tambien los commandos 
 
 `docker build -t myproject:latest . `
+
+`docker images`
+
