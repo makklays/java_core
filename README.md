@@ -18,13 +18,13 @@ Once we know that’s configured, we can run the package goal:
 
 ### Writing the Dockerfile
 
-`FROM openjdk:17-jdk-alpine
+`FROM openjdk:17-jdk-alpine`
 
-MAINTAINER baeldung.com
+`MAINTAINER baeldung.com`
 
-COPY target/docker-java-jar-0.0.1-SNAPSHOT.jar app.jar
+`COPY target/docker-java-jar-0.0.1-SNAPSHOT.jar app.jar`
 
-ENTRYPOINT ["java","-jar","/app.jar"]`
+`ENTRYPOINT ["java","-jar","/app.jar"]`
 
 ### Building and Testing the Image 
 
