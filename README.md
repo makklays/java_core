@@ -11,6 +11,10 @@ Add in `pom.xml`
 
 `<name>spring-boot</name>`
 
+Once we know that’s configured, we can run the package goal:
+
+`mvn package`
+
 ### Writing the Dockerfile
 
 `FROM openjdk:17-jdk-alpine
