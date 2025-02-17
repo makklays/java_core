@@ -38,6 +38,6 @@ Once we know that’s configured, we can run the package goal:
 `docker run docker-java-jar:latest`
 
 
-### Tambien los commandos 
+## Tambien los commandos 
 
 `docker build -t myproject:latest . `
