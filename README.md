@@ -3,13 +3,13 @@
 
 Add in `pom.xml`
 
-`<modelVersion>4.0.0</modelVersion>
+`<modelVersion>4.0.0</modelVersion>`
 
-<artifactId>spring-boot</artifactId>
+`<artifactId>spring-boot</artifactId>`
 
-<packaging>jar</packaging>
+`<packaging>jar</packaging>`
 
-<name>spring-boot</name>`
+`<name>spring-boot</name>`
 
 ### Writing the Dockerfile
 
