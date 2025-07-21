@@ -213,3 +213,19 @@ public class UserService {
     Не работает на внутренних вызовах this.someTransactionalMethod().
     Требует настройки DataSource и PlatformTransactionManager в Spring-контексте.
 
+14. Что такое REST и RESTful API?
+
+REST (Representational State Transfer) — это архитектурный стиль для проектирования сетевых приложений, особенно веб-сервисов. Он основан на HTTP-протоколе и принципах архитектуры клиента-сервера.
+RESTful API — это API (интерфейс программирования), который реализует принципы REST.
+Пример RESTful API:
+GET /books         → получить список всех книг  
+GET /books/10      → получить книгу с ID 10  
+POST /books        → создать новую книгу  
+PUT /books/10      → обновить книгу с ID 10  
+DELETE /books/10   → удалить книгу с ID 10
+Что отличает RESTful API от просто API?
+    RESTful API строго следует принципам REST.
+    Использует стандартные HTTP-методы.
+    Имеет читаемые, логичные и предсказуемые URL.
+    Не использует сессии и сохраняет независимость между запросами (stateless).
+    Использует JSON или XML как формат передачи данных (чаще — JSON).
