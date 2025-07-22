@@ -1,0 +1,48 @@
+
+Установка и подготовка среды
+Выбор среды:
+    🖥️ Minikube — для локальной разработки
+    🌐 Play with Kubernetes — онлайн
+    ☁️ Клауд-платформы (GKE, EKS, AKS) — позже
+
+Команды:
+minikube start
+kubectl version
+kubectl cluster-info
+
+Работа с Pods
+Что такое Pod?
+    Минимальная единица запуска (обычно 1 контейнер)
+
+Команды:
+kubectl run nginx --image=nginx
+kubectl get pods
+kubectl describe pod <pod-name>
+kubectl delete pod <pod-name>
+
+Deployments и управление версиями
+Что это:
+    Управляют репликами подов, позволяют обновлять приложения
+
+Команды:
+kubectl create deployment myapp --image=myimage
+kubectl set image deployment/myapp myapp=myimage:v2
+kubectl rollout status deployment/myapp
+kubectl rollout undo deployment/myapp
+
+Службы (Services)
+Типы:
+    ClusterIP (по умолчанию)
+    NodePort
+    LoadBalancer
+
+Пример:
+kubectl expose deployment myapp --type=NodePort --port=8080
+
+Конфиги и секреты
+    ConfigMap — для хранения настроек
+    Secret — для паролей и ключей
+
+kubectl create configmap my-config --from-literal=key=value
+kubectl create secret generic my-secret --from-literal=password=123456
+
