@@ -44,8 +44,8 @@ Explanation — объяснение
 Note — примечание
 Order — порядок
 Any order — любой порядок
-Ascending — по возрастанию
-Descending — по убыванию
+Ascending  — по возрастанию   -   in ascending order  — по возрастанию
+Descending — по убыванию      -   in descending order — по убыванию
 Consecutive — последовательный
 True — истина
 False — ложь
