@@ -2,52 +2,52 @@
 LeetCode Cheat Sheet - шпаргалка по LeetCode (50 words)
 
 -- 0-50 --
-Given — дано
-Return — вернуть
+Given   — дано
+Return  — вернуть
 Determine — определить
-Find — найти
-Check — проверить
-Remove — удалить
-Insert — вставить
+Find    — найти
+Check   — проверить
+Remove  — удалить
+Insert  — вставить
 Replace — заменить
-Count — посчитать
+Count   — посчитать
 Reverse — развернуть
-Array — массив
-String — строка
+Array   — массив
+String  — строка
 Character — символ
-Index — индекс
-Length — длина
-Value — значение
+Index   — индекс
+Length  — длина
+Value   — значение
 Element — элемент
-Unique — уникальный
-Distinct — различный
+Unique  — уникальный
+Distinct  — различный
 Duplicate — дубликат
-Equal to — равно
+Equal to  — равно
 Greater than — больше чем
 Less than — меньше чем
 Otherwise — иначе
 Such that — такой, что
-In-place — на месте (без доп. памяти)
+In-place  — на месте (без доп. памяти)
 Extra space — дополнительная память
 Time complexity — временная сложность
 Space complexity — сложность по памяти
 Optimize — оптимизировать
 Constraint — ограничение
-At most — не более
+At most  — не более
 At least — не менее
 Guaranteed — гарантируется
-Valid — корректный
-Input — входные данные
-Output — выходные данные
-Example — пример
+Valid    — корректный
+Input    — входные данные
+Output   — выходные данные
+Example  — пример
 Explanation — объяснение
-Note — примечание
-Order — порядок
-Any order — любой порядок
-Ascending  — по возрастанию   -   in ascending order  — по возрастанию
-Descending — по убыванию      -   in descending order — по убыванию
+Note     — примечание
+Order    — порядок
+Any order   — любой порядок
+Ascending   — по возрастанию   -   in ascending order  — по возрастанию
+Descending  — по убыванию      -   in descending order — по убыванию
 Consecutive — последовательный
-True — истина
+True  — истина
 False — ложь
 Condition — условие
 Loop — цикл
@@ -55,82 +55,82 @@ Edge case — граничный случай
 
 -- 50-100 --  
 Implement — реализовать
-Function — функция
-Method — метод
+Function  — функция
+Method    — метод
 Parameter — параметр
-Argument — аргумент
-Variable — переменная
+Argument  — аргумент
+Variable  — переменная
 Initialize — инициализировать
-Update — обновить
-Assign — присвоить
-Compare — сравнить
-Iterate — итерировать, проходить
-Traverse — обходить
+Update    — обновить
+Assign    — присвоить
+Compare   — сравнить
+Iterate   — итерировать, проходить
+Traverse  — обходить
 Loop through — проходить в цикле
-Break — прервать
-Continue — продолжить
+Break     — прервать
+Continue  — продолжить
 Condition — условие
-Satisfy — удовлетворять
-Match — совпадать
-Contain — содержать
-Exist — существовать
-Subarray — подмассив
+Satisfy   — удовлетворять
+Match     — совпадать
+Contain   — содержать
+Exist     — существовать
+Subarray  — подмассив
 Substring — подстрока
-Prefix — префикс
-Suffix — суффикс
-Boundary — граница
+Prefix    — префикс
+Suffix    — суффикс
+Boundary  — граница
 Binary search — бинарный поиск
 Two pointers — два указателя
 Sliding window — скользящее окно
 Recursion — рекурсия
 Backtracking — возврат с перебором
-Node — узел
-Parent — родитель
-Child — потомок
-Root — корень
-Leaf — лист
-Edge — ребро
-Depth — глубина
-Height — высота
-Path — путь
-Cycle — цикл
-Visited — посещённый
-Queue — очередь
-Stack — стек
-Hash map — хеш-таблица
-Set — множество
-Sort — сортировать
-Merge — объединить
-Split — разделить
-Filter — отфильтровать
+Node      — узел
+Parent    — родитель
+Child     — потомок
+Root      — корень
+Leaf      — лист
+Edge      — ребро
+Depth     — глубина
+Height    — высота
+Path      — путь
+Cycle     — цикл
+Visited   — посещённый
+Queue     — очередь
+Stack     — стек
+Hash map  — хеш-таблица
+Set       — множество
+Sort      — сортировать
+Merge     — объединить
+Split     — разделить
+Filter    — отфильтровать
 Accumulate — накапливать
 
 -- 100-150 --
-Compute — вычислить
-Evaluate — оценить, вычислить
-Process — обрабатывать
-Handle — обрабатывать
-Resolve — решать
+Compute   — вычислить
+Evaluate  — оценить, вычислить
+Process   — обрабатывать
+Handle    — обрабатывать
+Resolve   — решать
 Input size — размер входных данных
-Range — диапазон
-Limit — предел
+Range     — диапазон
+Limit     — предел
 Upper bound — верхняя граница
 Lower bound — нижняя граница
-Maximum — максимум
-Minimum — минимум
-Average — среднее значение
-Sum — сумма
+Maximum   — максимум
+Minimum   — минимум
+Average   — среднее значение
+Sum       — сумма
 Difference — разница
 Increment — увеличить
 Decrement — уменьшить
-Swap — поменять местами
-Shift — сдвиг
-Rotate — вращать
+Swap      — поменять местами
+Shift     — сдвиг
+Rotate    — вращать
 Condition holds — условие выполняется
-Fail — не выполняться / провалиться
-Pass — пройти (тест)
-Case — случай
-Scenario — сценарий
+Fail      — не выполняться / провалиться
+Pass      — пройти (тест)
+Case      — случай
+Scenario  — сценарий
 Worst case — худший случай
 Best case — лучший случай
 Average case — средний случай
