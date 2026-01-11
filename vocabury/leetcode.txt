@@ -209,6 +209,11 @@ Wrong answer — неверный ответ
 Submission — отправка решения
 Editorial — разбор решения
 
+больше чем — greater than
+меньше чем — less than
+больше или равно — greater than or equal to
+меньше или равно — less than or equal to
+
 
 //
   
