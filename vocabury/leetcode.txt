@@ -1,6 +1,7 @@
 
-LeetCode Cheat Sheet (50 words)
+LeetCode Cheat Sheet - шпаргалка по LeetCode (50 words)
 
+-- 0-50 --
 Given — дано
 Return — вернуть
 Determine — определить
@@ -52,8 +53,7 @@ Condition — условие
 Loop — цикл
 Edge case — граничный случай
 
---
-  
+-- 50-100 --  
 Implement — реализовать
 Function — функция
 Method — метод
@@ -105,6 +105,110 @@ Split — разделить
 Filter — отфильтровать
 Accumulate — накапливать
 
-  
+-- 100-150 --
+Compute — вычислить
+Evaluate — оценить, вычислить
+Process — обрабатывать
+Handle — обрабатывать
+Resolve — решать
+Input size — размер входных данных
+Range — диапазон
+Limit — предел
+Upper bound — верхняя граница
+Lower bound — нижняя граница
+Maximum — максимум
+Minimum — минимум
+Average — среднее значение
+Sum — сумма
+Difference — разница
+Increment — увеличить
+Decrement — уменьшить
+Swap — поменять местами
+Shift — сдвиг
+Rotate — вращать
+Condition holds — условие выполняется
+Fail — не выполняться / провалиться
+Pass — пройти (тест)
+Case — случай
+Scenario — сценарий
+Worst case — худший случай
+Best case — лучший случай
+Average case — средний случай
+Brute force — полный перебор
+Greedy — жадный алгоритм
+Dynamic programming — динамическое программирование
+Memoization — мемоизация
+Cache — кэш
+Lookup — поиск по ключу
+Reference — ссылка
+Immutable — неизменяемый
+Mutable — изменяемый
+Copy — копия
+Clone — клонировать
+Overwrite — перезаписать
+Pointer — указатель
+Index out of bounds — выход за границы индекса
+Overflow — переполнение
+Underflow — недополнение
+Null — пусто / null
+Empty — пустой
+Initialize to zero — инициализировать нулём
+Final result — итоговый результат
+Expected output — ожидаемый результат
+Test case — тестовый случай
+
+-- 150-200 --
+Traverse depth-first (DFS) — обход в глубину
+Traverse breadth-first (BFS) — обход в ширину
+Adjacency list — список смежности
+Adjacency matrix — матрица смежности
+Connected — связанный
+Disconnected — несвязанный
+Component — компонент
+Reachable — достижимый
+Unreachable — недостижимый
+Weight — вес
+Directed — ориентированный
+Undirected — неориентированный
+Acyclic — ацикличный
+Topological order — топологический порядок
+Shortest path — кратчайший путь
+Longest path — самый длинный путь
+Priority queue — приоритетная очередь
+Heap — куча
+Min heap — минимальная куча
+Max heap — максимальная куча
+Balance — балансировать
+Balanced tree — сбалансированное дерево
+Unbalanced — несбалансированный
+Height difference — разница высот
+Rotation — поворот
+Binary search tree (BST) — бинарное дерево поиска
+Invariant — инвариант
+State — состояние
+Transition — переход
+Subproblem — подзадача
+Overlap — перекрытие
+Partition — разделение
+Pivot — опорный элемент
+Median — медиана
+Frequency — частота
+Occurrence — вхождение
+Mapping — отображение
+Key-value pair — пара ключ–значение
+Iteration — итерация
+Termination condition — условие завершения
+Precondition — предусловие
+Postcondition — постусловие
+Constraint violation — нарушение ограничений
+Runtime error — ошибка выполнения
+Timeout — превышение времени
+Memory limit exceeded — превышение лимита памяти
+Accepted — принято (решение прошло)
+Wrong answer — неверный ответ
+Submission — отправка решения
+Editorial — разбор решения
+
+
 //
   
