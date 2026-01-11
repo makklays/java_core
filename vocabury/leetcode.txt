@@ -2,183 +2,183 @@
 LeetCode Cheat Sheet - шпаргалка по LeetCode (50 words)
 
 -- 0-50 --
-Given   — дано
-Return  — вернуть
+Given     — дано
+Return    — вернуть
 Determine — определить
-Find    — найти
-Check   — проверить
-Remove  — удалить
-Insert  — вставить
-Replace — заменить
-Count   — посчитать
-Reverse — развернуть
-Array   — массив
-String  — строка
+Find      — найти
+Check     — проверить
+Remove    — удалить
+Insert    — вставить
+Replace   — заменить
+Count     — посчитать
+Reverse   — развернуть
+Array     — массив
+String    — строка
 Character — символ
-Index   — индекс
-Length  — длина
-Value   — значение
-Element — элемент
-Unique  — уникальный
-Distinct  — различный
-Duplicate — дубликат
-Equal to  — равно
+Index     — индекс
+Length    — длина
+Value     — значение
+Element   — элемент
+Unique    — уникальный
+Distinct     — различный
+Duplicate    — дубликат
+Equal to     — равно
 Greater than — больше чем
-Less than — меньше чем
-Otherwise — иначе
-Such that — такой, что
-In-place  — на месте (без доп. памяти)
-Extra space — дополнительная память
+Less than    — меньше чем
+Otherwise    — иначе
+Such that    — такой, что
+In-place     — на месте (без доп. памяти)
+Extra space  — дополнительная память
 Time complexity — временная сложность
 Space complexity — сложность по памяти
-Optimize — оптимизировать
-Constraint — ограничение
-At most  — не более
-At least — не менее
-Guaranteed — гарантируется
-Valid    — корректный
-Input    — входные данные
-Output   — выходные данные
-Example  — пример
+Optimize    — оптимизировать
+Constraint  — ограничение
+At most     — не более
+At least    — не менее
+Guaranteed  — гарантируется
+Valid       — корректный
+Input       — входные данные
+Output      — выходные данные
+Example     — пример
 Explanation — объяснение
-Note     — примечание
-Order    — порядок
+Note        — примечание
+Order       — порядок
 Any order   — любой порядок
-Ascending   — по возрастанию   -   in ascending order  — по возрастанию
-Descending  — по убыванию      -   in descending order — по убыванию
-Consecutive — последовательный
-True  — истина
-False — ложь
-Condition — условие
-Loop — цикл
-Edge case — граничный случай
+Ascending   — по возрастанию     -   in ascending order  — по возрастанию
+Descending  — по убыванию        -   in descending order — по убыванию
+Consecutive — последовательный   -   Find the longest consecutive sequence — найти самую длинную последовательную последовательность
+True        — истина
+False       — ложь
+Condition   — условие
+Loop        — цикл
+Edge case   — граничный случай
 
 -- 50-100 --  
-Implement — реализовать
-Function  — функция
-Method    — метод
-Parameter — параметр
-Argument  — аргумент
-Variable  — переменная
+Implement  — реализовать
+Function   — функция
+Method     — метод
+Parameter  — параметр
+Argument   — аргумент
+Variable   — переменная
 Initialize — инициализировать
-Update    — обновить
-Assign    — присвоить
-Compare   — сравнить
-Iterate   — итерировать, проходить
-Traverse  — обходить
+Update     — обновить
+Assign     — присвоить
+Compare    — сравнить
+Iterate    — итерировать, проходить
+Traverse   — обходить
 Loop through — проходить в цикле
-Break     — прервать
-Continue  — продолжить
-Condition — условие
-Satisfy   — удовлетворять
-Match     — совпадать
-Contain   — содержать
-Exist     — существовать
-Subarray  — подмассив
-Substring — подстрока
-Prefix    — префикс
-Suffix    — суффикс
-Boundary  — граница
-Binary search — бинарный поиск
-Two pointers — два указателя
+Break      — прервать
+Continue   — продолжить
+Condition  — условие
+Satisfy    — удовлетворять
+Match      — совпадать
+Contain    — содержать
+Exist      — существовать
+Subarray   — подмассив
+Substring  — подстрока
+Prefix     — префикс
+Suffix     — суффикс
+Boundary   — граница
+Binary search  — бинарный поиск
+Two pointers   — два указателя
 Sliding window — скользящее окно
-Recursion — рекурсия
+Recursion      — рекурсия
 Backtracking — возврат с перебором
-Node      — узел
-Parent    — родитель
-Child     — потомок
-Root      — корень
-Leaf      — лист
-Edge      — ребро
-Depth     — глубина
-Height    — высота
-Path      — путь
-Cycle     — цикл
-Visited   — посещённый
-Queue     — очередь
-Stack     — стек
-Hash map  — хеш-таблица
-Set       — множество
-Sort      — сортировать
-Merge     — объединить
-Split     — разделить
-Filter    — отфильтровать
+Node       — узел
+Parent     — родитель
+Child      — потомок
+Root       — корень
+Leaf       — лист
+Edge       — ребро
+Depth      — глубина
+Height     — высота
+Path       — путь
+Cycle      — цикл
+Visited    — посещённый
+Queue      — очередь
+Stack      — стек
+Hash map   — хеш-таблица
+Set        — множество
+Sort       — сортировать
+Merge      — объединить
+Split      — разделить
+Filter     — отфильтровать
 Accumulate — накапливать
 
 -- 100-150 --
-Compute   — вычислить
-Evaluate  — оценить, вычислить
-Process   — обрабатывать
-Handle    — обрабатывать
-Resolve   — решать
+Compute    — вычислить
+Evaluate   — оценить, вычислить
+Process    — обрабатывать
+Handle     — обрабатывать
+Resolve    — решать
 Input size — размер входных данных
-Range     — диапазон
-Limit     — предел
+Range      — диапазон
+Limit      — предел
 Upper bound — верхняя граница
 Lower bound — нижняя граница
-Maximum   — максимум
-Minimum   — минимум
-Average   — среднее значение
-Sum       — сумма
+Maximum    — максимум
+Minimum    — минимум
+Average    — среднее значение
+Sum        — сумма
 Difference — разница
-Increment — увеличить
-Decrement — уменьшить
-Swap      — поменять местами
-Shift     — сдвиг
-Rotate    — вращать
+Increment  — увеличить
+Decrement  — уменьшить
+Swap       — поменять местами
+Shift      — сдвиг
+Rotate     — вращать
 Condition holds — условие выполняется
-Fail      — не выполняться / провалиться
-Pass      — пройти (тест)
-Case      — случай
-Scenario  — сценарий
+Fail       — не выполняться / провалиться
+Pass       — пройти (тест)
+Case       — случай
+Scenario   — сценарий
 Worst case — худший случай
-Best case — лучший случай
+Best case  — лучший случай
 Average case — средний случай
-Brute force — полный перебор
-Greedy — жадный алгоритм
+Brute force  — полный перебор
+Greedy       — жадный алгоритм
 Dynamic programming — динамическое программирование
 Memoization — мемоизация
-Cache — кэш
-Lookup — поиск по ключу
-Reference — ссылка
-Immutable — неизменяемый
-Mutable — изменяемый
-Copy — копия
-Clone — клонировать
-Overwrite — перезаписать
-Pointer — указатель
+Cache      — кэш
+Lookup     — поиск по ключу
+Reference  — ссылка
+Immutable  — неизменяемый
+Mutable    — изменяемый
+Copy       — копия
+Clone      — клонировать
+Overwrite  — перезаписать
+Pointer    — указатель
 Index out of bounds — выход за границы индекса
-Overflow — переполнение
-Underflow — недополнение
-Null — пусто / null
-Empty — пустой
+Overflow   — переполнение
+Underflow  — недополнение
+Null       — пусто / null
+Empty      — пустой
 Initialize to zero — инициализировать нулём
-Final result — итоговый результат
-Expected output — ожидаемый результат
-Test case — тестовый случай
+Final result       — итоговый результат
+Expected output    — ожидаемый результат
+Test case          — тестовый случай
 
 -- 150-200 --
-Traverse depth-first (DFS) — обход в глубину
+Traverse depth-first (DFS)   — обход в глубину
 Traverse breadth-first (BFS) — обход в ширину
-Adjacency list — список смежности
-Adjacency matrix — матрица смежности
-Connected — связанный
-Disconnected — несвязанный
-Component — компонент
-Reachable — достижимый
-Unreachable — недостижимый
-Weight — вес
-Directed — ориентированный
-Undirected — неориентированный
-Acyclic — ацикличный
+Adjacency list    — список смежности
+Adjacency matrix  — матрица смежности
+Connected         — связанный
+Disconnected      — несвязанный
+Component         — компонент
+Reachable         — достижимый
+Unreachable       — недостижимый
+Weight            — вес
+Directed          — ориентированный
+Undirected        — неориентированный
+Acyclic           — ацикличный
 Topological order — топологический порядок
-Shortest path — кратчайший путь
-Longest path — самый длинный путь
-Priority queue — приоритетная очередь
-Heap — куча
+Shortest path     — кратчайший путь
+Longest path      — самый длинный путь
+Priority queue    — приоритетная очередь
+Heap     — куча
 Min heap — минимальная куча
 Max heap — максимальная куча
-Balance — балансировать
+Balance  — балансировать
 Balanced tree — сбалансированное дерево
 Unbalanced — несбалансированный
 Height difference — разница высот
