@@ -1,0 +1,110 @@
+
+LeetCode Cheat Sheet (50 words)
+
+Given — дано
+Return — вернуть
+Determine — определить
+Find — найти
+Check — проверить
+Remove — удалить
+Insert — вставить
+Replace — заменить
+Count — посчитать
+Reverse — развернуть
+Array — массив
+String — строка
+Character — символ
+Index — индекс
+Length — длина
+Value — значение
+Element — элемент
+Unique — уникальный
+Distinct — различный
+Duplicate — дубликат
+Equal to — равно
+Greater than — больше чем
+Less than — меньше чем
+Otherwise — иначе
+Such that — такой, что
+In-place — на месте (без доп. памяти)
+Extra space — дополнительная память
+Time complexity — временная сложность
+Space complexity — сложность по памяти
+Optimize — оптимизировать
+Constraint — ограничение
+At most — не более
+At least — не менее
+Guaranteed — гарантируется
+Valid — корректный
+Input — входные данные
+Output — выходные данные
+Example — пример
+Explanation — объяснение
+Note — примечание
+Order — порядок
+Any order — любой порядок
+Ascending — по возрастанию
+Descending — по убыванию
+Consecutive — последовательный
+True — истина
+False — ложь
+Condition — условие
+Loop — цикл
+Edge case — граничный случай
+
+--
+  
+Implement — реализовать
+Function — функция
+Method — метод
+Parameter — параметр
+Argument — аргумент
+Variable — переменная
+Initialize — инициализировать
+Update — обновить
+Assign — присвоить
+Compare — сравнить
+Iterate — итерировать, проходить
+Traverse — обходить
+Loop through — проходить в цикле
+Break — прервать
+Continue — продолжить
+Condition — условие
+Satisfy — удовлетворять
+Match — совпадать
+Contain — содержать
+Exist — существовать
+Subarray — подмассив
+Substring — подстрока
+Prefix — префикс
+Suffix — суффикс
+Boundary — граница
+Binary search — бинарный поиск
+Two pointers — два указателя
+Sliding window — скользящее окно
+Recursion — рекурсия
+Backtracking — возврат с перебором
+Node — узел
+Parent — родитель
+Child — потомок
+Root — корень
+Leaf — лист
+Edge — ребро
+Depth — глубина
+Height — высота
+Path — путь
+Cycle — цикл
+Visited — посещённый
+Queue — очередь
+Stack — стек
+Hash map — хеш-таблица
+Set — множество
+Sort — сортировать
+Merge — объединить
+Split — разделить
+Filter — отфильтровать
+Accumulate — накапливать
+
+  
+//
+  
