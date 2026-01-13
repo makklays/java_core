@@ -266,6 +266,10 @@ Bitwise XOR — побитовое исключающее ИЛИ
 Bit mask — битовая маска
 Shift left — сдвиг влево
 
+Saga Pattern  - паттерн “Сага” 
+Orchestration - Оркестрация
+Choreography  - Хореография
+
 
 //
   
