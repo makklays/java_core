@@ -269,7 +269,7 @@ Shift left — сдвиг влево
 Saga Pattern  - паттерн “Сага” 
 Orchestration - Оркестрация
 Choreography  - Хореография
-
+Сompensating transaction - компенсирующая транзакция
 
 //
   
