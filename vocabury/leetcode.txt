@@ -271,6 +271,10 @@ Orchestration - Оркестрация
 Choreography  - Хореография
 Сompensating transaction - компенсирующая транзакция
 
+even   — даже 
+almost — почти
+also   — также, тоже
+
 
 //
   
