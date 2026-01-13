@@ -214,6 +214,58 @@ Editorial — разбор решения
 больше или равно — greater than or equal to
 меньше или равно — less than or equal to
 
+-- 200-250 --
+Allocate — выделять (память)
+Deallocate — освобождать (память)
+Reference type — ссылочный тип
+Primitive type — примитивный тип
+Cast — приводить тип
+Iteration step — шаг итерации
+Counter — счётчик
+Accumulator — накопитель
+Flag — флаг
+Toggle — переключать
+Initialize once — инициализировать один раз
+Reset — сбросить
+Rollback — откатить
+Snapshot — снимок состояния
+Checkpoint — контрольная точка
+Traverse recursively — обходить рекурсивно
+Base case — базовый случай
+Recursive call — рекурсивный вызов
+Call stack — стек вызовов
+Stack overflow — переполнение стека
+Invariant violation — нарушение инварианта
+Stable sort — стабильная сортировка
+Unstable sort — нестабильная сортировка
+Partitioning — разбиение
+Rebalance — перебалансировать
+Lazy evaluation — ленивые вычисления
+Eager evaluation — жадные (немедленные) вычисления
+Short-circuit — короткое замыкание
+Predicate — предикат
+Comparator — компаратор
+Index mapping — отображение индексов
+Offset — смещение
+Stride — шаг
+Window size — размер окна
+Threshold — порог
+Overlap window — перекрывающееся окно
+Non-overlapping — неперекрывающийся
+Sparse — разреженный
+Dense — плотный
+Distribution — распределение
+Normalize — нормализовать
+Clamp — ограничить
+Round down — округлить вниз
+Round up — округлить вверх
+Modulo — остаток от деления
+Bitwise AND — побитовое И
+Bitwise OR — побитовое ИЛИ
+Bitwise XOR — побитовое исключающее ИЛИ
+Bit mask — битовая маска
+Shift left — сдвиг влево
+
 
 //
   
