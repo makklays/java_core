@@ -1,0 +1,120 @@
+
+Ниже — short answers (1–2 предложения) под каждое из 100 слов,
+в стиле Oracle / Google interview: коротко, чётко, по делу.
+
+🔹 Core Java (1–30)
+
+Class — A class is a blueprint for creating objects. It defines fields and methods.
+Object — An object is an instance of a class representing real data.
+Interface — An interface defines a contract that classes must implement.
+Abstract class — An abstract class can contain both abstract and concrete methods.
+Inheritance — Inheritance allows a class to reuse and extend another class.
+Encapsulation — Encapsulation hides internal state and exposes behavior via methods.
+Polymorphism — Polymorphism allows different implementations to be accessed through the same interface.
+Immutability — An immutable object cannot be changed after creation.
+Constructor — A constructor initializes a new object.
+Method — A method defines behavior of a class.
+Overloading — Overloading allows multiple methods with the same name but different parameters.
+Overriding — Overriding replaces a parent class method with a new implementation.
+Access modifier — Access modifiers control visibility of classes and members.
+Final — final prevents modification, inheritance, or overriding.
+Static — static members belong to the class, not to instances.
+Primitive type — Primitive types store simple values directly.
+Reference type — Reference types point to objects in memory.
+Wrapper class — Wrapper classes convert primitives into objects.
+Autoboxing — Autoboxing automatically converts primitives to wrapper objects.
+Unboxing — Unboxing converts wrapper objects back to primitives.
+Exception — An exception represents an error during program execution.
+Checked exception — Checked exceptions must be handled at compile time.
+Unchecked exception — Unchecked exceptions occur at runtime.
+Try-catch — Try-catch blocks handle exceptions safely.
+Throw / throws — throw creates an exception, throws declares it.
+Garbage Collector — Garbage Collector automatically frees unused memory.
+Heap — Heap stores objects and shared data.
+Stack — Stack stores method calls and local variables.
+Memory leak — A memory leak happens when unused objects are not released.
+Thread-safe — Thread-safe code works correctly in concurrent environments.
+
+🔹 Collections & Concurrency (31–55)
+
+Collection — A collection stores and manages groups of objects.
+List — A List is an ordered collection that allows duplicates.
+Set — A Set stores unique elements only.
+Map — A Map stores key-value pairs.
+HashMap — HashMap provides fast key-based access in average O(1) time.
+ArrayList — ArrayList provides fast random access but slow insertions.
+LinkedList — LinkedList allows fast insertions but slow random access.
+TreeMap — TreeMap stores entries in sorted order.
+HashSet — HashSet stores unique elements using hashing.
+Iterator — Iterator allows sequential traversal of a collection.
+Concurrency — Concurrency means multiple tasks progress at the same time.
+Thread — A thread is a lightweight unit of execution.
+Runnable — Runnable defines a task executed by a thread.
+Synchronization — Synchronization prevents race conditions.
+Lock — A lock controls access to shared resources.
+Race condition — A race condition occurs when threads access shared data incorrectly.
+Deadlock — Deadlock happens when threads wait forever for each other.
+Volatile — volatile guarantees visibility of changes across threads.
+Atomic — Atomic operations are executed as a single, indivisible step.
+ExecutorService — ExecutorService manages thread pools efficiently.
+Parallelism — Parallelism executes tasks simultaneously.
+Asynchronous — Asynchronous execution does not block the caller.
+Future — Future represents a result of an async computation.
+CompletableFuture — CompletableFuture allows chaining async tasks.
+Blocking — Blocking operations wait until completion.
+
+🔹 Algorithms & Performance (56–75)
+
+Time complexity — Time complexity describes how runtime grows with input size.
+Space complexity — Space complexity measures memory usage.
+Big O notation — Big O describes the upper bound of complexity.
+Linear time — Linear time grows proportionally with input size.
+Logarithmic time — Logarithmic time grows very slowly.
+Constant time — Constant time does not depend on input size.
+Quadratic time — Quadratic time grows with the square of input size.
+Worst case — Worst case is the maximum possible runtime.
+Average case — Average case describes typical performance.
+Best case — Best case is the fastest scenario.
+Optimize — Optimization improves performance or memory usage.
+In-place — In-place algorithms use constant extra memory.
+Brute force — Brute force tries all possible solutions.
+Greedy algorithm — Greedy algorithms make locally optimal choices.
+Dynamic programming — Dynamic programming solves overlapping subproblems.
+Recursion — Recursion is a function calling itself.
+Binary search — Binary search finds elements in sorted data in O(log n).
+Sorting — Sorting arranges data in a specific order.
+Traversal — Traversal visits all elements of a structure.
+Edge case — An edge case tests extreme or special inputs.
+
+🔹 System Design / Architecture (76–100)
+
+Scalability — Scalability measures system growth capability.
+Availability — Availability means the system is operational when needed.
+Reliability — Reliability means consistent correct behavior.
+Latency — Latency is the response delay.
+Throughput — Throughput is the number of requests processed per second.
+Microservices — Microservices split applications into independent services.
+Monolith — A monolith is a single, tightly coupled application.
+Distributed system — Distributed systems run on multiple machines.
+Consistency — Consistency ensures all nodes see the same data.
+CAP theorem — CAP states you can only fully guarantee two of three properties.
+Transaction — A transaction is a unit of work with ACID properties.
+Isolation level — Isolation levels control visibility of concurrent transactions.
+Saga pattern — Saga manages distributed transactions via steps and compensations.
+Compensating transaction — A compensating transaction undoes a previous step.
+Event-driven — Event-driven systems react to events asynchronously.
+REST API — REST APIs expose resources via HTTP.
+Idempotent — Idempotent operations can be repeated safely.
+Load balancing — Load balancing distributes traffic evenly.
+Caching — Caching stores data for faster access.
+Fault tolerance — Fault tolerance allows systems to survive failures.
+Design pattern — Design patterns provide reusable solutions.
+SOLID principles — SOLID improves maintainability and design quality.
+Clean code — Clean code is readable and easy to maintain.
+Technical debt — Technical debt represents future cost of shortcuts.
+Trade-off — A trade-off balances competing design decisions.
+
+
+//
+
+  
