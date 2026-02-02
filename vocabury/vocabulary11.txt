@@ -1,3 +1,6 @@
 
+excite - возбуждать 
+passionate - страстный 
 
-//
+He is passionate about technology.
+
