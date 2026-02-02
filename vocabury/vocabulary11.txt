@@ -3,4 +3,5 @@ excite - возбуждать
 passionate - страстный 
 
 He is passionate about technology.
+I’m excited by building scalable systems and designing architectures that can handle millions of transactions efficiently.
 
