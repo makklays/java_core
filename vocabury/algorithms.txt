@@ -1,0 +1,17 @@
+
+Часто используемые варианты в контексте алгоритмов и графов:
+
+vertex — вершина
+vertices — вершины
+edge — ребро
+graph — граф
+adjacent vertices — смежные вершины
+source vertex — исходная (начальная) вершина
+destination vertex / target vertex — целевая вершина
+
+Пример:
+Find the shortest path from the source vertex.
+Найти кратчайший путь из исходной вершины.
+
+
+//
