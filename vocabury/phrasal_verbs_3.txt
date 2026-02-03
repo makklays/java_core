@@ -66,6 +66,15 @@ move forward — двигаться дальше
 catch up — догнать
 settle on — окончательно выбрать
 
+--
+Примеры как на интервью: 
+
+I set up CI/CD pipelines and rolled out new releases.
+We ran into performance issues and tracked down the root cause.
+I took over the service and cleaned up the legacy code.
+We phased out the monolith and moved over to microservices.
+--
+
 
 //
 
