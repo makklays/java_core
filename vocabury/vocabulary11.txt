@@ -5,3 +5,15 @@ passionate - страстный
 He is passionate about technology.
 I’m excited by building scalable systems and designing architectures that can handle millions of transactions efficiently.
 
+paw - лапа
+nails - когти
+
+Would you like to eat with us tonight?
+Would you like some coffee?
+Do you mind if I use your phone changer?
+Is it all right if I ... 
+Is it OK if I ... 
+Do you think I could ... 
+Could you wait a moment, please?
+Can you wait a moment? please?
+
