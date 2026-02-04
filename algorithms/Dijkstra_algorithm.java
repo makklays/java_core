@@ -1,5 +1,13 @@
 import java.util.Arrays;
 
+/**
+ * Algotithm Dijkstra
+ *
+ * @author Alexander Kuziv <makklays@gmail.com>
+ * @company TechMatrix18
+ * @since 03-02-2026
+ * @version 0.0.1
+ */
 public class DijkstraSimple {
 
     private static final int INF = Integer.MAX_VALUE;
