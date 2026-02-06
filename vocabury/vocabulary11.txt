@@ -21,6 +21,9 @@ also - también, además
 performance - производительность 
 application performance - производительность приложения 
 
+own - владеть
+overtake - обгонять, обогнать 
+
 
 //
 
