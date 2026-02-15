@@ -12,8 +12,10 @@ deny — отрицать, отказываться
 risk — рисковать
 fancy — хотеть, желать, нравиться
 
-give up (=stop)
-put off (=delay until later)
-go on, carry on (=continue)
-keep, keep on (=do something continuously or repeatedly)
+give up (=stop) - бросать, прекращать
+put off (=delay until later) - откладывать, переносить на потом
+go on, carry on (=continue) - продолжать
+keep, keep on (=do something continuously or repeatedly) - продолжать делать что-то постоянно или повторно
 
+
+//
