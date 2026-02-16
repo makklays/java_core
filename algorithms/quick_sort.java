@@ -6,10 +6,10 @@
  * best case     - O(n log n)
  * average case  - O(n log n)
  * worst case    - O(n²)
- */ 
-class QuickSort {
+ */
+public class QuickSort {
     public static void main(String[] args) {
-        int[] arr = {1,3,4,5,2,8,4,7};
+        int[] arr = {5, 2, 9, 1, 5, 6, 4, 7};
 
         quickSort(arr, 0, arr.length - 1);
 
@@ -27,7 +27,7 @@ class QuickSort {
         }
     }
 
-    public partition(int[] arr, int low, int high) {
+    public static int partition(int[] arr, int low, int high) {
         int pivot = arr[low + (high - low) / 2];
         int i = low - 1;
 
