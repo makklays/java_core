@@ -7,7 +7,7 @@ import java.util.Arrays;
  *
  * @author Alexander Kuziv <makklays@gmail.com>
  * @company TechMatrix18
- * @since 03-02-2026
+ * @since 03.02.2026
  * @version 0.0.1
  */
 public class DijkstraSimple {
