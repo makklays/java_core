@@ -20,15 +20,15 @@ public class QuickSort {
 
     public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {
-            int pivot = partition(arr, low, high);
+            int pivot = partition(arr, low, high);  // Partitions the array and returns the pivot index.
 
-            quickSort(arr, low, pivot.length - 1);
-            quickSort(arr, pivot.length + 1, high);
+            quickSort(arr, low, pivot.length - 1);  // Elements smaller than the pivot go to the left
+            quickSort(arr, pivot.length + 1, high); // Elements greater than the pivot go to the right
         }
     }
 
     public static int partition(int[] arr, int low, int high) {
-        int pivot = arr[low + (high - low) / 2];
+        int pivot = arr[low + (high - low) / 2];    // int 5 / int 2 = int 2.5 -> 2 
         int i = low - 1;
 
         for (int j = low; j < high; j++) {
