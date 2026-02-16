@@ -6,6 +6,11 @@
  * best case    - O(1)
  * average case - O(log n)
  * worst case   - O(log n)
+ *
+ * @author Alexander Kuziv <makklays@gmail.com>
+ * @company TechMatrix18
+ * @since 17.02.2026
+ * @version 0.0.1 
  */
 public class BinarySearch {
     public static void main(String[] args) {
