@@ -3,11 +3,11 @@ import java.util.*;
 /**
  * Algotithm Dijkstra (with PriorityQueue)
  *
- * O(E log V)
+ * Complexity time: O(E log V)
  *
  * @author Alexander Kuziv <makklays@gmail.com>
  * @company TechMatrix18
- * @since 04-02-2026
+ * @since 04.02.2026
  * @version 0.0.1
  */
 public class DijkstraPQ {
@@ -91,5 +91,4 @@ public class DijkstraPQ {
         dijkstra(graph, 0);
     }
 }
-
 
