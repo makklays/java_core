@@ -3,6 +3,8 @@ import java.util.Arrays;
 /**
  * Algotithm Dijkstra
  *
+ * Time Complexity = O(V²)
+ *
  * @author Alexander Kuziv <makklays@gmail.com>
  * @company TechMatrix18
  * @since 03-02-2026
