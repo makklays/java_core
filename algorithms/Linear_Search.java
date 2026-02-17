@@ -2,6 +2,10 @@
 /**
  * Linear Search 
  *
+ * @param arr    the array to search in
+ * @param target the element to find
+ * @return the index of the element if found, otherwise -1
+ *
  * Complexity time: O(n)
  * 
  * @author Alexander Kuziv <makklays@gmail.com>
