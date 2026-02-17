@@ -14,7 +14,7 @@ public class LinearSearch {
         int[] arr = {3, 7, 1, 9, 5};
         int target = 7;
 
-        int index = lenearSearch(arr, target);
+        int index = linearSearch(arr, target);
 
         if (index != -1) {
             System.out.println("Element found at index: " + index);
@@ -23,7 +23,7 @@ public class LinearSearch {
         }
     }
 
-    public static int linearSearch(arr, target) {
+    public static int linearSearch(int[] arr, int target) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == target) {
                 return i;  // return the element was found by me =) 
