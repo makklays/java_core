@@ -143,5 +143,9 @@ I was warned not to touch the sandwich.
 10. love - любить
 11. hate - ненавидеть
 
+12. remember - помнить
+13. regret - сожалеть
+14. go on - продолжать
+
 
 //
