@@ -1,0 +1,99 @@
+
+🔹 1. Core Scala
+
+What is the difference between val, var, and lazy val?
+What are case classes and why are they useful?
+What is pattern matching in Scala?
+What are companion objects?
+What is the difference between apply and unapply?
+What are higher-order functions?
+What is currying?
+What are implicits (Scala 2) or givens (Scala 3)?
+What are type parameters and variance (+A, -A)?
+What is the difference between Option, Try, and Either?
+
+🔹 2. Functional Programming
+
+What is immutability and why is it important?
+What is a pure function?
+What is a closure?
+What is a monad?
+How does map differ from flatMap?
+What is referential transparency?
+What is tail recursion?
+What are for-comprehensions and how do they work?
+
+🔹 3. Collections & Performance
+
+What is the difference between List, Vector, and Seq?
+When would you use a Stream / LazyList?
+What is the complexity of common operations in Scala collections?
+What is the difference between strict and lazy evaluation?
+
+🔹 4. Concurrency & Async
+
+What is a Future in Scala?
+How does ExecutionContext work?
+What is the difference between blocking and non-blocking code?
+What problems can arise with shared mutable state?
+What are the alternatives to Future (e.g., Cats Effect / ZIO)?
+What is back-pressure?
+
+🔹 5. JVM & Interoperability
+
+How does Scala run on the JVM?
+How does Scala interoperate with Java?
+What are value classes?
+What is the difference between Scala traits and Java interfaces?
+
+🔹 6. Frameworks (часто спрашивают)
+
+Если компания использует:
+
+🔸 Play Framework
+
+How does routing work in Play?
+What is Action vs Action.async?
+How does dependency injection work in Play?
+How does Play handle JSON?
+
+🔸 Akka
+
+What is the Actor model?
+What is supervision?
+What is message passing?
+What is Akka Streams?
+
+🔸 Slick
+
+What is a DBIO action?
+How does Slick differ from Hibernate?
+How does Slick handle transactions?
+
+🔹 7. Architecture & Design
+
+What is functional error handling?
+How do you design a scalable Scala backend?
+What is the difference between OOP and FP?
+What is dependency injection?
+What design patterns are commonly used in Scala?
+
+🔹 8. Testing
+
+What testing frameworks have you used?
+How do you test asynchronous code?
+What is property-based testing?
+What is mocking and when should it be avoided?
+
+🔹 9. Advanced Topics (Senior level)
+
+What are type classes?
+What is higher-kinded types?
+What is covariance and contravariance?
+What are effect systems?
+What is tagless-final?
+What is the difference between Cats Effect and ZIO?
+
+
+//
+
