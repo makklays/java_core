@@ -1,0 +1,106 @@
+
+🔹 1. Core Java
+
+What is the difference between JDK, JRE, and JVM?
+How does the JVM work?
+What is the difference between == and .equals()?
+What is the difference between HashMap and ConcurrentHashMap?
+What are the main principles of OOP?
+What is the difference between an abstract class and an interface?
+What is immutability?
+What is the difference between String, StringBuilder, and StringBuffer?
+What are generics and why are they used?
+What is type erasure?
+
+🔹 2. Collections & Performance
+
+What is the time complexity of HashMap operations?
+How does HashMap work internally?
+What happens when two keys have the same hash?
+What is the difference between ArrayList and LinkedList?
+What is the difference between Comparable and Comparator?
+What is fail-fast behavior?
+
+🔹 3. Multithreading & Concurrency
+
+What is the difference between Thread and Runnable?
+What is the volatile keyword?
+What is synchronization?
+What is a race condition?
+What is a deadlock?
+What is the difference between synchronized and ReentrantLock?
+What is the Executor framework?
+What is CompletableFuture?
+What is the difference between blocking and non-blocking code?
+
+🔹 4. JVM & Memory
+
+What are the different memory areas in JVM?
+What is the Garbage Collector?
+What are the types of GC?
+What is the difference between heap and stack?
+What causes memory leaks in Java?
+What is OutOfMemoryError?
+
+🔹 5. Spring (очень часто спрашивают)
+
+Если используется Spring Boot:
+What is dependency injection?
+What is the difference between @Component, @Service, and @Repository?
+What is @Autowired?
+What is the difference between @RestController and @Controller?
+What is Spring Bean lifecycle?
+What is Spring AOP?
+What is @Transactional and how does it work?
+What is the difference between Propagation types?
+
+🔹 6. JPA & Databases
+
+Если используется Hibernate:
+What is the difference between JPA and Hibernate?
+What is the difference between fetch = LAZY and EAGER?
+What is the N+1 problem?
+What is the difference between persist() and merge()?
+What is the first-level cache?
+What is the difference between optimistic and pessimistic locking?
+
+🔹 7. REST & Web
+
+What is REST?
+What is the difference between PUT and PATCH?
+What are HTTP status codes?
+What is idempotency?
+What is CORS?
+What is JWT?
+
+🔹 8. Testing
+
+What is unit testing?
+What is integration testing?
+What is mocking?
+What is the difference between @Mock and @MockBean?
+What is Testcontainers?
+What is TDD?
+
+🔹 9. Design & Architecture
+
+What is SOLID?
+What is the difference between monolith and microservices?
+What is Clean Architecture?
+What is Hexagonal Architecture?
+What are design patterns you have used?
+What is dependency inversion principle?
+(Кстати, ты хотел делать CRM с Hexagonal Architecture — это сильный плюс на интервью 👌)
+
+🔹 10. DevOps & Production (Middle/Senior)
+
+What is Docker?
+What is CI/CD?
+What is Kubernetes?
+What is horizontal vs vertical scaling?
+How do you monitor a Java application in production?
+What is logging best practice?
+
+
+//
+
