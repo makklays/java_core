@@ -1,0 +1,105 @@
+
+🔹 1. Core Kotlin
+
+What is the difference between val and var?
+What are data classes and what are they used for?
+What is a sealed class?
+What are extension functions?
+What is the difference between open, final, and abstract?
+What are higher-order functions?
+What are lambda expressions?
+What is null-safety in Kotlin?
+What is the difference between ?, !!, and ?:?
+What is the Elvis operator?
+What are inline functions and why are they used?
+What are reified type parameters?
+
+🔹 2. Functional Features
+
+What is immutability?
+What is a pure function?
+What is a closure in Kotlin?
+What is the difference between map, flatMap, and filter?
+What are scope functions (let, run, apply, also, with)?
+When would you use each scope function?
+What is tail recursion?
+
+🔹 3. Coroutines & Concurrency (очень часто спрашивают)
+
+What are coroutines?
+How do coroutines differ from threads?
+What is a suspend function?
+What is a CoroutineScope?
+What are Dispatchers?
+What is structured concurrency?
+What is the difference between launch and async?
+What is Flow?
+What is backpressure in Flow?
+
+🔹 4. Collections & Performance
+
+What is the difference between List and MutableList?
+What is the difference between Sequence and Collection?
+What is lazy evaluation?
+How does Kotlin handle immutability internally?
+
+🔹 5. JVM & Java Interoperability
+
+How does Kotlin run on the JVM?
+How does Kotlin interoperate with Java?
+What are platform types?
+What is the difference between Kotlin null-safety and Java null handling?
+What are SAM conversions?
+
+🔹 6. Spring / Backend (если Backend позиция)
+
+Если используется Spring Boot:
+
+How does Kotlin work with Spring Boot?
+What is the difference between data class and JPA entity?
+How does null-safety affect JPA entities?
+What are common pitfalls using Kotlin with Hibernate?
+What is the difference between blocking and reactive applications?
+Если используется Ktor:
+What is Ktor?
+How does routing work in Ktor?
+How do you handle dependency injection in Ktor?
+
+🔹 7. Android (если Android позиция)
+
+What is the difference between Activity and Fragment?
+What is ViewModel?
+What is LiveData?
+What is the difference between LiveData and Flow?
+What is Jetpack Compose?
+What is the lifecycle of an Android Activity?
+
+🔹 8. Testing
+
+How do you test coroutines?
+What is MockK?
+What is the difference between unit and integration tests?
+What is TDD?
+
+🔹 9. Architecture & Design
+
+What is SOLID?
+What is Clean Architecture?
+What is MVVM?
+What is dependency injection?
+What DI frameworks have you used?
+What is Hexagonal Architecture?
+
+🔹 10. Advanced / Senior
+
+What are inline classes (value classes)?
+What are contracts in Kotlin?
+What is the difference between cold and hot flows?
+What is structured concurrency and why is it important?
+What is the difference between Flow and Channel?
+What is the difference between suspend and blocking functions?
+How does Kotlin handle memory compared to Java?
+
+
+//
+
