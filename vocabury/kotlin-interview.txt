@@ -103,3 +103,25 @@ How does Kotlin handle memory compared to Java?
 
 //
 
+1. What is the difference between val and var?
+
+val and var differ in mutability:
+val → immutable reference (cannot be reassigned)
+var → mutable reference (can be reassigned)
+
+Example:
+val name = "Papa"
+name = "Alex"   // ❌ Compilation error
+
+var age = 30
+age = 31        // ✅ Allowed
+
+👉 Important:
+val means the reference cannot change, but the object itself may still be mutable.
+
+Short interview answer:
+val defines a read-only reference, while var defines a mutable reference that can be reassigned.
+
+
+//
+
