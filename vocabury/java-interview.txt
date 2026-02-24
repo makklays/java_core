@@ -110,6 +110,15 @@ JVM executes bytecode. JRE provides the runtime environment including the JVM an
 2. How does the JVM work?
 The JVM loads compiled bytecode, verifies it, and executes it using an interpreter and JIT compiler. It manages memory through heap and stack areas and automatically handles garbage collection, making Java platform-independent and memory-safe.
 
+3. What is the difference between == and .equals()?
+== compares object references, meaning it checks if two variables point to the same object. .equals() compares the logical content of objects and can be overridden. For primitive types, == compares actual values.
+
+4. What is the difference between HashMap and ConcurrentHashMap?
+HashMap is not thread-safe and should not be used in concurrent environments. ConcurrentHashMap is thread-safe and allows multiple threads to read and write without locking the entire map. It provides better scalability and does not allow null keys or values.
+
+5. What are the main principles of OOP?
+The four main OOP principles are encapsulation, abstraction, inheritance, and polymorphism. Encapsulation hides internal state, abstraction exposes only essential behavior, inheritance allows code reuse, and polymorphism enables objects to behave differently through a common interface.
+
 
 // 
 
