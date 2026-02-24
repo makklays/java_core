@@ -119,6 +119,15 @@ HashMap is not thread-safe and should not be used in concurrent environments. Co
 5. What are the main principles of OOP?
 The four main OOP principles are encapsulation, abstraction, inheritance, and polymorphism. Encapsulation hides internal state, abstraction exposes only essential behavior, inheritance allows code reuse, and polymorphism enables objects to behave differently through a common interface.
 
+6. What is the difference between an abstract class and an interface?
+An abstract class can contain both abstract and concrete methods and can have state and constructors. A class can extend only one abstract class. An interface defines a contract and supports multiple inheritance, but it cannot maintain instance state.
+
+7. What is immutability?
+Immutability means that an object's state cannot be changed after creation. Immutable objects are inherently thread-safe and help prevent unintended side effects, making systems more reliable and easier to maintain. 
+
+8. What is the difference between String, StringBuilder, and StringBuffer?
+String is immutable, meaning every modification creates a new object. StringBuilder is mutable and not thread-safe, making it faster for single-threaded use. StringBuffer is mutable and thread-safe because its methods are synchronized, but it is slower than StringBuilder.
+
 
 // 
 
