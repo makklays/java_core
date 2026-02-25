@@ -128,6 +128,12 @@ Immutability means that an object's state cannot be changed after creation. Immu
 8. What is the difference between String, StringBuilder, and StringBuffer?
 String is immutable, meaning every modification creates a new object. StringBuilder is mutable and not thread-safe, making it faster for single-threaded use. StringBuffer is mutable and thread-safe because its methods are synchronized, but it is slower than StringBuilder.
 
+9. What are generics and why are they used?
+Generics allow us to parameterize types, enabling compile-time type safety and eliminating the need for casting. They improve code reusability and prevent runtime type errors like ClassCastException.
+
+10. What is type erasure?
+Type erasure is the process where generic type information is removed at compile time. The compiler replaces type parameters with their bounds or Object and inserts necessary casts. As a result, generics provide type safety at compile time but do not exist at runtime.
+
 
 // 
 
