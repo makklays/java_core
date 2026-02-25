@@ -134,6 +134,12 @@ Generics allow us to parameterize types, enabling compile-time type safety and e
 10. What is type erasure?
 Type erasure is the process where generic type information is removed at compile time. The compiler replaces type parameters with their bounds or Object and inserts necessary casts. As a result, generics provide type safety at compile time but do not exist at runtime.
 
+11. What is the time complexity of HashMap operations?
+The average time complexity of HashMap operations like put, get, and remove is O(1). However, in the worst case, it can degrade to O(n) due to hash collisions. Since Java 8, if too many elements fall into the same bucket, the structure switches to a balanced tree, reducing worst-case complexity to O(log n).
+
+12. How does HashMap work internally?
+HashMap uses a hash table internally. It calculates a hash from the key, determines the bucket index, and stores entries in that bucket. In case of collisions, it uses a linked list, and since Java 8, it converts the list into a red-black tree if it becomes too large. When the number of elements exceeds the threshold (capacity × load factor), the map resizes and rehashes all entries.
+
 
 // 
 
