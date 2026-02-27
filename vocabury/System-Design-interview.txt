@@ -1,0 +1,108 @@
+
+🔹 System Design Fundamentals
+
+What is system design?
+What are functional vs non-functional requirements?
+How do you clarify requirements in a system design interview?
+How do you estimate system scale (users, QPS, storage)?
+What are the key components of a distributed system?
+What is latency vs throughput?
+What is scalability?
+What is high availability?
+What is fault tolerance?
+What are trade-offs in system design?
+
+🔹 Scalability & Performance
+
+What is horizontal vs vertical scaling?
+What is load balancing?
+How does auto-scaling work?
+What is CDN and when would you use it?
+What is caching? Where can caching be applied?
+What is cache invalidation?
+What is rate limiting?
+What is backpressure?
+What is circuit breaker pattern?
+What is bulkhead pattern?
+
+🔹 Databases & Storage
+
+How do you choose between SQL and NoSQL?
+What is database sharding?
+What is replication?
+What is partitioning?
+What is eventual consistency?
+What is strong consistency?
+What is CAP theorem?
+What is ACID vs BASE?
+How do you design a schema for high scale?
+How do you migrate data with zero downtime?
+
+🔹 Distributed Systems
+
+What is consensus in distributed systems?
+What is leader election?
+What is distributed locking?
+What is idempotency?
+What are distributed transactions?
+What is the Saga pattern?
+What is message queue and when to use it?
+What is event-driven architecture?
+What is stream processing?
+What is eventual consistency in practice?
+
+🔹 Reliability & Observability
+
+How do you design for failure?
+What is retry with exponential backoff?
+What is timeout strategy?
+What is observability?
+What are logs, metrics, and traces?
+What is SLA vs SLO vs SLI?
+What is health check?
+How do you prevent cascading failures?
+What is chaos engineering?
+How do you handle partial failures?
+
+🔹 Security & APIs
+
+How do you design secure APIs?
+What is authentication vs authorization?
+What is OAuth2?
+What is JWT?
+What is API gateway?
+What is rate limiting at API level?
+How do you prevent DDoS?
+What is Zero Trust architecture?
+How do you secure microservices communication?
+How do you manage secrets?
+
+🔹 Real Interview Design Problems (Very Common)
+
+Design a URL shortening service (like TinyURL).
+Design a distributed cache (like Redis).
+Design a chat system (like WhatsApp).
+Design a ride-sharing service (like Uber).
+Design a video streaming platform (like YouTube).
+Design a social media feed (like Instagram).
+Design a notification system.
+Design a payment system.
+Design a file storage system (like Dropbox).
+Design a search engine.
+
+🔹 Advanced / Staff-Level Questions
+
+How would you design a system for 1 billion users?
+How do you split a monolith into microservices?
+How do you design a multi-region system?
+How do you achieve strong consistency globally?
+How do you reduce tail latency?
+How do you design for 99.999% availability?
+How do you handle data sovereignty laws?
+How do you handle blue-green deployment?
+How do you design a system that evolves over 5+ years?
+What are common system design mistakes?
+
+
+//
+
