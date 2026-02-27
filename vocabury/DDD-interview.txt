@@ -1,0 +1,85 @@
+
+🔹 Basic DDD Concepts
+
+What is Domain-Driven Design?
+What problem does DDD try to solve?
+What is the difference between domain and subdomain?
+What is a Core Domain?
+What is a Supporting Subdomain?
+What is a Generic Subdomain?
+What is Ubiquitous Language?
+Why is Ubiquitous Language important?
+What is a Bounded Context?
+How do you define boundaries in DDD?
+
+🔹 Tactical Design (Building Blocks)
+
+What is an Entity?
+How is an Entity different from a Value Object?
+What is a Value Object?
+Why should Value Objects be immutable?
+What is an Aggregate?
+What is an Aggregate Root?
+Why do we access objects only through the Aggregate Root?
+What is a Repository?
+How is a Repository different from DAO?
+What is a Domain Service?
+When should you use a Domain Service instead of putting logic into an Entity?
+What is a Factory in DDD?
+What is a Domain Event?
+What is the difference between Domain Event and Integration Event?
+
+🔹 Strategic Design
+
+What is Context Mapping?
+What are the types of relationships between Bounded Contexts?
+What is Shared Kernel?
+What is Customer–Supplier relationship?
+What is Conformist?
+What is Anti-Corruption Layer (ACL)?
+When should you use an Anti-Corruption Layer?
+What is Open Host Service?
+What is Published Language?
+
+🔹 Aggregates & Consistency
+
+What are the rules for designing Aggregates?
+Why should Aggregates be small?
+What is eventual consistency?
+How do Aggregates help with transactional consistency?
+Can one Aggregate reference another directly?
+How do you handle relationships between Aggregates?
+
+🔹 DDD + Architecture
+
+How does DDD relate to Clean Architecture?
+How does DDD work with Hexagonal Architecture?
+Where should domain logic be placed?
+Should the Domain layer depend on frameworks?
+How does DDD fit into microservices architecture?
+
+🔹 DDD + Microservices
+
+Is one microservice equal to one Bounded Context?
+How do you split monolith into microservices using DDD?
+What are common mistakes when applying DDD to microservices?
+How do you handle distributed transactions in DDD?
+What is Saga pattern?
+What is the role of Domain Events in microservices?
+
+🔹 Advanced / Senior Level Questions
+
+When should you NOT use DDD?
+What are the drawbacks of DDD?
+How do you refactor a legacy system toward DDD?
+How do you test domain logic?
+How do you model invariants in DDD?
+What is the difference between Application Service and Domain Service?
+How do you avoid Anemic Domain Model?
+What is rich domain model?
+How do you model complex business rules?
+Can you give a real-world example of applying DDD in a project?
+
+
+//
+
