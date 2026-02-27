@@ -1,0 +1,205 @@
+
+🔹 Algorithm Fundamentals
+
+What is an algorithm?
+How do you measure algorithm efficiency?
+What is time complexity?
+What is space complexity?
+What is Big-O notation?
+What is the difference between Big-O, Big-Theta, and Big-Omega?
+What is amortized complexity?
+What is recursion?
+What is tail recursion?
+What are common algorithm design techniques?
+
+🔹 Sorting & Searching
+
+Explain how Binary Search works.
+What is the time complexity of Binary Search?
+How does Quick Sort work?
+What is the worst-case time complexity of Quick Sort?
+How does Merge Sort work?
+What is Heap Sort?
+What is the difference between stable and unstable sorting?
+When would you use counting sort?
+What is interpolation search?
+How do you find the k-th largest element in an array?
+
+🔹 Recursion & Backtracking
+
+What is backtracking?
+How does DFS use recursion?
+Solve the N-Queens problem.
+Generate all permutations of a string.
+Generate all subsets of a set.
+What is the difference between backtracking and brute force?
+What is memoization?
+How do you avoid stack overflow in recursion?
+Explain the Tower of Hanoi problem.
+What is divide and conquer?
+
+🔹 Dynamic Programming
+
+What is dynamic programming?
+What is the difference between top-down and bottom-up DP?
+What is the Fibonacci problem in DP?
+What is the Knapsack problem?
+What is the Longest Common Subsequence problem?
+What is the Longest Increasing Subsequence?
+What is the Coin Change problem?
+How do you recognize a DP problem?
+What is overlapping subproblems?
+What is optimal substructure?
+
+🔹 Graph Algorithms
+
+What is BFS?
+What is DFS?
+What is Dijkstra’s algorithm?
+What is Bellman-Ford algorithm?
+What is Floyd-Warshall algorithm?
+What is a Minimum Spanning Tree?
+What is Kruskal’s algorithm?
+What is Prim’s algorithm?
+What is topological sorting?
+What is cycle detection in a graph?
+
+🔹 Greedy Algorithms
+
+What is a greedy algorithm?
+When does a greedy strategy work?
+What is the Activity Selection problem?
+What is Huffman coding?
+What is the difference between greedy and dynamic programming?
+Can greedy fail? Give an example.
+What is interval scheduling?
+What is fractional knapsack?
+What is a priority queue?
+What are common greedy patterns?
+
+🔹 Advanced / Senior-Level Topics
+
+What is a Trie?
+What is a Segment Tree?
+What is a Fenwick Tree (Binary Indexed Tree)?
+What is Union-Find (Disjoint Set)?
+What is KMP string matching algorithm?
+What is Rabin-Karp algorithm?
+What is A* search algorithm?
+What is Tarjan’s algorithm?
+What is Kosaraju’s algorithm?
+What is computational complexity theory (P vs NP)?
+
+🔹 Practical Coding Interview Questions
+
+Find two numbers that sum to a target.
+Reverse a linked list.
+Detect a cycle in a linked list.
+Find the longest substring without repeating characters.
+Merge two sorted arrays.
+Find the median of two sorted arrays.
+Implement LRU cache.
+Design an autocomplete system.
+Find the shortest path in a weighted graph.
+Detect strongly connected components.
+
+
+//
+
+1. What is an algorithm?
+An algorithm is a well-defined, finite sequence of steps used to solve a specific problem or perform a computation. It takes some input, processes it through a series of clearly defined instructions, and produces an output.
+
+A good algorithm has several key characteristics:
+Correctness – it produces the expected result.
+Efficiency – it optimizes time and space complexity.
+Determinism – each step is precisely defined.
+Finiteness – it must terminate after a finite number of steps.
+
+In software engineering, algorithms are fundamental because they directly impact system performance and scalability. For example, choosing between a linear search 
+O(n)
+O(n) and a binary search 
+O(log⁡n)
+O(logn) can significantly affect performance at scale.
+
+In short, an algorithm is the logical core behind any program — the strategy we use to transform input into meaningful output efficiently.
+
+2. How do you measure algorithm efficiency?
+Algorithm efficiency is primarily measured in terms of time complexity and space complexity.
+
+Time complexity describes how the running time of an algorithm grows relative to the input size, usually expressed using Big-O notation. For example, an algorithm with 
+O(n)
+O(n) time complexity scales linearly, while 
+O(log⁡n)
+O(logn) scales logarithmically and is generally more efficient for large inputs.
+
+Space complexity measures how much additional memory an algorithm requires as the input size increases. This includes auxiliary data structures, recursion stack usage, and temporary variables.
+In interviews and theoretical analysis, we focus on asymptotic complexity — how the algorithm behaves as input size approaches infinity — rather than exact runtime in milliseconds, since that depends on hardware and implementation details.
+
+In practice, efficiency can also be evaluated through:
+Empirical benchmarking
+Profiling tools
+CPU usage and memory consumption analysis
+Cache behavior and I/O operations (for large-scale systems)
+
+So, algorithm efficiency is about understanding how well an algorithm scales in both time and memory as the problem size grows.
+
+3. What is time complexity?
+Time complexity describes how the running time of an algorithm grows as the size of the input increases. It is usually expressed using Big-O notation, which represents the upper bound of the algorithm’s growth rate.
+
+Instead of measuring exact execution time in seconds, we analyze how the number of operations scales with input size n. For example:
+O(1) – constant time (independent of input size)
+O(n) – linear time
+O(log n) – logarithmic time
+O(n²) – quadratic time
+
+Time complexity focuses on the dominant term and ignores constants, because we are interested in long-term scalability rather than small implementation details.
+For example, if an algorithm performs a single loop over an array of size n, its time complexity is O(n). If it has two nested loops over n, it is O(n²).
+
+In summary, time complexity helps us evaluate how well an algorithm scales and whether it will remain efficient as input size grows.
+
+4. What is space complexity?
+Space complexity describes how much memory an algorithm uses relative to the input size. It measures the total amount of memory required during execution, including:
+
+Input space
+Auxiliary (extra) space
+Recursion stack space
+Temporary variables and data structures
+
+In practice, when discussing space complexity in interviews, we usually focus on auxiliary space — the additional memory required beyond the input.
+
+Like time complexity, space complexity is expressed using Big-O notation:
+O(1) – constant space (uses fixed extra memory)
+O(n) – linear space (memory grows proportionally to input size)
+O(n²) – quadratic space
+
+For example:
+Reversing an array in place → O(1) space
+Creating a new array of size 
+n → O(n) space
+
+Recursive algorithms may use O(n) stack space in the worst case
+Space complexity is important because memory usage affects scalability, performance, and sometimes even feasibility of an algorithm in production systems.
+
+In short, space complexity tells us how memory consumption grows as input size increases.
+
+5. What is Big-O notation?
+Big-O notation is a mathematical way to describe the upper bound of an algorithm’s time or space complexity as the input size grows. It tells us how the performance of an algorithm scales in the worst case.
+Instead of focusing on exact execution time, Big-O describes the growth rate of the algorithm in terms of input size n. It ignores constants and lower-order terms, because they become insignificant for large inputs.
+
+For example:
+O(1) – constant time
+O(log n) – logarithmic time
+O(n) – linear time
+O(n log n) – linearithmic time
+O(n²) – quadratic time
+
+If an algorithm performs 
+3n2+5n+2 operations, its Big-O complexity is O(n²) because the quadratic term dominates as n grows.
+
+Big-O helps engineers compare algorithms and choose scalable solutions, especially for large-scale systems.
+
+In short, Big-O notation describes how an algorithm’s resource usage grows with input size, focusing on long-term scalability rather than exact performance.
+
+
+//
+
