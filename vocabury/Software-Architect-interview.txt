@@ -1,0 +1,108 @@
+
+🔹 Architecture Fundamentals
+
+What is software architecture?
+What is the difference between architecture and design?
+What are the key responsibilities of a Software Architect?
+What are non-functional requirements?
+How do you gather architectural requirements?
+What are quality attributes in software architecture?
+What is coupling and cohesion?
+What is separation of concerns?
+What is technical debt?
+How do you balance business and technical priorities?
+
+🔹 Architectural Patterns
+
+What is Layered Architecture?
+What is Clean Architecture?
+What is Hexagonal Architecture (Ports and Adapters)?
+What is Event-Driven Architecture?
+What is Microservices Architecture?
+What is Monolithic Architecture?
+What is SOA (Service-Oriented Architecture)?
+What is CQRS?
+What is Event Sourcing?
+What is the Saga pattern?
+
+🔹 System Design & Scalability
+
+How do you design a scalable system?
+What is horizontal vs vertical scaling?
+What is load balancing?
+How do you design for high availability?
+What is eventual consistency?
+How do you design a fault-tolerant system?
+What is CAP theorem?
+How do you handle distributed transactions?
+What is idempotency and why is it important?
+How do you prevent cascading failures?
+
+🔹 Cloud & Infrastructure
+
+What is Infrastructure as Code?
+What are containers and why use them?
+What is Kubernetes?
+What is serverless architecture?
+What is the difference between IaaS, PaaS, SaaS?
+How do you design cloud-native applications?
+What is blue-green deployment?
+What is canary release?
+What is observability?
+What are SLAs, SLOs, SLIs?
+
+🔹 Security & Reliability
+
+How do you design a secure system?
+What is OAuth2?
+What is JWT?
+How do you protect APIs?
+What is Zero Trust architecture?
+How do you handle secrets management?
+What is rate limiting?
+How do you prevent DDoS attacks?
+What is circuit breaker pattern?
+How do you ensure data privacy and compliance?
+
+🔹 Data Architecture
+
+How do you choose between SQL and NoSQL?
+What is database sharding?
+What is replication?
+What is data partitioning?
+What is eventual consistency in databases?
+What is ACID vs BASE?
+What is caching strategy?
+How do you design a data migration strategy?
+What is polyglot persistence?
+How do you design analytics architecture?
+
+🔹 DevOps & Engineering Leadership
+
+What is CI/CD?
+How do you design deployment pipelines?
+How do you manage cross-team dependencies?
+How do you review architecture decisions?
+What is an ADR (Architecture Decision Record)?
+How do you mentor senior engineers?
+How do you introduce new technology in a company?
+How do you handle legacy systems?
+How do you estimate system complexity?
+How do you communicate architecture to stakeholders?
+
+🔹 Behavioral / Strategy Questions
+
+Describe a complex system you designed.
+Describe a major production failure and how you handled it.
+How do you deal with architectural disagreements?
+How do you evaluate trade-offs?
+How do you reduce system complexity?
+How do you prevent over-engineering?
+How do you align architecture with business goals?
+How do you future-proof a system?
+How do you scale a team along with the system?
+What makes a good Software Architect?
+
+
+//
+
