@@ -14,6 +14,8 @@ there is likely to be - скорее всего будет
 there is supposed to be - должно быть (по плану / ожиданию)
 there used to be - раньше было
 
+supposed - предполагаемый, считаемый 
+
 Examples:
 There will be a meeting — Будет встреча
 There must be a mistake — Должна быть ошибка
