@@ -1,0 +1,79 @@
+
+1. unless - (≈ if not) если не; пока не 
+2. as long as - при условии, что; пока 
+3. provided - при условии, что
+
+I won't go unless you come.
+→ Я не пойду, если ты не придёшь.
+You won't pass the exam unless you study.
+→ Ты не сдашь экзамен, если не будешь учиться.
+We won't deploy unless tests pass.
+→ Мы не задеплоим, если тесты не пройдут.
+
+You can use my laptop as long as you return it.
+→ Можешь пользоваться ноутбуком при условии что вернёшь.
+I will help you as long as you tell me the truth.
+→ Помогу тебе, если скажешь правду.
+Stay here as long as you want. 
+→ Оставайся здесь столько, сколько хочешь.
+
+You may work remotely provided that you finish your tasks.
+→ Можно работать удалённо при условии что закончишь задачи.
+The API will respond quickly provided caching is enabled.
+→ API будет отвечать быстро если включён кеш.
+
+---------------
+
+I won't merge the PR unless tests pass.
+→ Не солью PR, если тесты не пройдут.
+You can deploy as long as Flyway migrations succeed.
+→ Можешь деплоить при условии успешных миграций.
+We will release provided that Kubernetes is stable.
+→ Выпустим релиз при условии стабильности Kubernetes.
+
+---------------
+
+as ... as ...  = такой же … как
+
+This task is as difficult as the previous one.
+→ Эта задача такая же сложная, как предыдущая.
+Java is as popular as Python.
+→ Java такой же популярный, как Python.
+My laptop is as fast as yours.
+→ Мой ноутбук такой же быстрый, как твой.
+
+He writes code as quickly as his teammate.
+→ Он пишет код так же быстро, как его коллега.
+She speaks Spanish as well as English.
+→ Она говорит по-испански так же хорошо, как по-английски.
+
+---------------
+
+not as ... as = не такой … как
+
+Spring is not as difficult as Kubernetes.
+→ Spring не такой сложный, как Kubernetes.
+This interview wasn't as hard as I expected.
+→ Это собеседование было не таким сложным, как я ожидал.
+
+Google interviews are not as easy as people think.
+→ Собеседования в Google не такие лёгкие, как люди думают.
+Kubernetes is as important as Java for backend engineers.
+→ Kubernetes так же важен, как Java для backend-инженеров.
+
+---------------
+
+as soon as → как только
+Call me as soon as you arrive.
+
+as far as I know → насколько я знаю
+As far as I know, SAP uses Java a lot.
+
+as well as → а также / так же как
+I know Java as well as SQL.
+
+as much as → столько же
+I earn as much as my colleague.
+
+
+//
