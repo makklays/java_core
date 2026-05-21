@@ -1,0 +1,145 @@
+Вот программа из 100 практических задач уровня Google L4 (Java Backend).
+
+Блок 1. Arrays + HashMap (1–15)
+
+1. Two Sum
+2. Contains Duplicate
+3. Best Time to Buy and Sell Stock
+4. Product of Array Except Self
+5. Maximum Subarray
+6. Move Zeroes
+7. Merge Sorted Arrays
+8. Longest Consecutive Sequence
+9. Top K Frequent Elements
+10. Majority Element
+11. Rotate Array
+12. Missing Number
+13. Subarray Sum Equals K
+14. Find Duplicate Number
+15. Continuous Subarray Sum
+
+Блок 2. Strings (16–25)
+
+16. Valid Anagram
+17. Longest Common Prefix
+18. Valid Palindrome
+19. Longest Substring Without Repeating Characters
+20. Group Anagrams
+21. String Compression
+22. Reverse Words
+23. Minimum Window Substring
+24. Decode String
+25. KMP Search
+
+Блок 3. Linked List (26–35)
+
+26. Reverse Linked List
+27. Merge Two Lists
+28. Detect Cycle
+29. Remove Nth Node
+30. Reorder List
+31. Copy Random Pointer
+32. Add Two Numbers
+33. LRU Cache
+34. Intersection of Lists
+35. Flatten List
+
+Блок 4. Trees (36–50)
+
+36. Maximum Depth
+37. Invert Tree
+38. Validate BST
+39. Level Order Traversal
+40. Diameter of Tree
+41. Path Sum
+42. Lowest Common Ancestor
+43. Serialize Tree
+44. Build Tree from Traversals
+45. Kth Smallest
+46. Binary Tree Right Side View
+47. Zigzag Traversal
+48. Balanced Tree
+49. Trie
+50. Segment Tree
+
+Блок 5. Graphs (51–65)
+
+51. Number of Islands
+52. Clone Graph
+53. Course Schedule
+54. BFS Traversal
+55. DFS Traversal
+56. Dijkstra
+57. Topological Sort
+58. Union Find
+59. Kruskal
+60. Prim
+61. Word Ladder
+62. Shortest Path
+63. Network Delay
+64. Accounts Merge
+65. Connected Components
+
+Блок 6. Dynamic Programming (66–75)
+
+66. Climbing Stairs
+67. House Robber
+68. Coin Change
+69. Longest Increasing Subsequence
+70. Knapsack
+71. Edit Distance
+72. Partition Equal Subset
+73. Decode Ways
+74. Unique Paths
+75. Longest Common Subsequence
+
+Блок 7. Concurrency (76–85)
+
+76. Thread-safe Counter
+77. Producer Consumer
+78. Blocking Queue
+79. ExecutorService
+80. CompletableFuture Pipeline
+81. Rate Limiter
+82. Deadlock Detector
+83. Reader Writer Lock
+84. Thread Pool
+85. Parallel Processing
+
+Блок 8. Spring + Backend (86–92)
+
+86. Реализовать кеш на Spring
+87.JWT Authentication
+88. Retry + Circuit Breaker
+89. Idempotent API
+90. Saga Pattern
+91. Event-driven сервис
+92. Distributed Lock
+
+Блок 9. SQL + System Design (93–100)
+
+93. Оптимизировать медленный SQL
+94. Реализовать пагинацию
+95. Проектирование URL Shortener
+96. Notification Service
+97. Rate Limiter Design
+98. API Gateway
+99. Distributed Cache
+100. Mini Google Drive
+
+----------------------
+Как тренироваться (как в Google)
+Для каждой задачи:
+- Объяснить решение вслух — 2 минуты
+- Написать brute force
+- Улучшить до optimal
+- Посчитать Big O
+- Написать тесты
+- Обсудить edge cases
+
+1–50 → алгоритмы
+86–100 → backend design
+76–85 → concurrency
+
+
+// 
