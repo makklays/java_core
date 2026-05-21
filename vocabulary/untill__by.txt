@@ -1,0 +1,36 @@
+
+1. untill - = до какого момента (процесс продолжается)
+2. by - = не позднее / к моменту 
+
+I worked until 8 PM.
+→ Я работал до 8 вечера.
+Wait until I call you.
+→ Подожди, пока я не позвоню.
+I won't deploy until tests pass.
+→ Не задеплою, пока тесты не пройдут.
+
+Finish the task by Friday.
+→ Закончи задачу к пятнице.
+I will send the report by noon.
+→ Отправлю отчёт до полудня / не позднее полудня.
+Tests must pass by tomorrow.
+→ Тесты должны пройти к завтрашнему дню.
+
+------------
+
+I won't deploy until QA approves it.
+→ Я не задеплою, пока QA не одобрит.
+We won't release until all bugs are fixed.
+→ Мы не выпустим релиз, пока все баги не исправят.
+I won't start learning SAP until I finish Kubernetes.
+→ Я не начну изучать SAP, пока не закончу Kubernetes.
+
+------------
+
+I will study until 10 PM.
+→ Буду учиться до 10.
+I will finish studying by 10 PM.
+→ Закончу учиться к 10.
+
+
+//
