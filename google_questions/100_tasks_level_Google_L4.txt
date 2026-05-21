@@ -109,7 +109,7 @@
 Блок 8. Spring + Backend (86–92)
 
 86. Реализовать кеш на Spring
-87.JWT Authentication
+87. JWT Authentication
 88. Retry + Circuit Breaker
 89. Idempotent API
 90. Saga Pattern
