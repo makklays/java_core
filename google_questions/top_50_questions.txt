@@ -1,0 +1,92 @@
+Java Core:
+
+1. Как работает HashMap ?
+2. Gjxtve String immutable ?
+3. Что делает intern() ?
+4. Разница ArrayList() vs LinkedList.
+5. HashSet внутри.
+6. Что таоке collision ?
+7. Что будет при плохом hashCode() ?
+8. equals() vs ==.
+9. Что таоке immutable object ?
+10. Fail-fast iterator.
+
+JVM:
+
+11. Stack vs Heap.
+12. Garbage Collector.
+13. Memory leak в Java.
+14. ClassLoader.
+15. JIT compiler.
+16. Stop-the-world pause.
+17. Metaspace.
+18. WeakReferance / SoftReference.
+19. OutOfMemoryError.
+20. Почему recursion опасен ?
+
+Concurrency:
+
+21. volatile
+22. synchronized.
+23. Deadlock.
+24. Race condition.
+25. CAS.
+26. AtomicInteger.
+27. ConcurrentHashMap.
+28. ThreadLocal.
+29. CompletableFuture.
+30. ExecutorService.
+
+Spring/Backend:
+
+31. Dependency Inhection.
+32. Spring Bean lifecycle.
+33. Singleton bean thread safety.
+34. Transactions.
+35. Isolation levels.
+36. Optimistic locking.
+37. REST idempotency.
+38. Kafka partitioning.
+39. RabbitMQ vs Kafka.
+40. N+1 query problem.
+
+Algorithms:
+
+41. BFS vs DFS.
+42. Time complexity.
+43. Binary Search.
+44. Sliding Window.
+45. Dynamic Programming.
+46. Topological Sort.
+47. Dijkstra.
+48. Trie.
+49. LRU Cache.
+50. Union Find.
+
+Для L4/L5 обычно еще нужно:
+- очень сильные алгоритмы;
+- системный дизайн;
+- уверенный английский для интервью;
+- production-scale thinking;
+
+При интервью нужно:
+- говорить вслух;
+- объяснять;
+- разбирать задачу;
+- проверять edge cases;
+Для System Design:
+- scaling;
+- queues;
+- replication;
+- consistency;
+- distributed system;
+
+Акцент на:
+- LeetCode medium ежедневно;
+- concurrency deep dive;
+- distributed systems;
+- system design;
+- английский для интервью.
+
+
+//
