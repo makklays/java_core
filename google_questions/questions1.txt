@@ -1,0 +1,23 @@
+
+Typical tech interview questions for Google.
+
+1. Explain a technical challenge you faced and how you solved it.
+
+2. Design a scalable web service.
+
+3. Walk me through a recent project you worked on.
+
+4. How do you optimize a slow database query ?
+
+5. Expain the difference between a process and a thread.
+
+6. How would you handle a disagreement on a technical team ?
+
+7. Describe a time you took a leadership role.
+
+8. What is Big O notation, and can you give an example ?
+
+9. How do you ensure you code is secure ?
+
+10. Explain a situation where you had to debug a complex problem. Let me know which one you'd like to focus on first ?
+
