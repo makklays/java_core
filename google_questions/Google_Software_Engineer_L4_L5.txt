@@ -1,0 +1,79 @@
+Вот список из 50 вопросов для подготовки.
+
+1. Java Core + JVM (1–15)
+
+1. Чем отличается HashMap от ConcurrentHashMap?
+2. Как внутри работает HashMap?
+3. Что происходит при коллизиях?
+4. Что такое immutable объект?
+5. Как реализовать потокобезопасный Singleton?
+6. Что такое volatile?
+7. synchronized vs ReentrantLock.
+8. Что такое happens-before?
+9. Что происходит при создании объекта через new?
+10. Heap vs Stack.
+11. Что такое Metaspace?
+12. Как работает Garbage Collector?
+13. G1 vs ZGC.
+14. Почему возникают memory leaks в Java?
+15. Что такое ClassLoader?
+
+2. Concurrency (16–25)
+
+16. Что такое race condition?
+17. Реализуй Producer–Consumer.
+18. Что такое thread pool?
+19. Как работает ExecutorService?
+20. CompletableFuture — когда использовать?
+21. Что такое backpressure?
+22. Как избежать deadlock?
+23. Что такое starvation?
+24. ForkJoinPool — где полезен?
+25. Как реализовать rate limiter?
+
+3. Spring + Backend (26–33)
+
+26. Что происходит при старте Spring Boot приложения?
+27. Как работает Dependency Injection?
+28. Что такое Bean Scope?
+29. @Transactional — как работает?
+30. Почему возникает N+1 проблема?
+31. Когда использовать Kafka вместо RabbitMQ?
+32. Как организовать retry?
+33. Что такое idempotency?
+
+4. SQL + Data (34–39)
+
+34. Объясни ACID.
+35. Что такое уровни изоляции транзакций?
+36. Почему возникает deadlock в БД?
+37. Когда использовать индекс?
+38. B-Tree vs Hash Index.
+39. Как оптимизировать медленный запрос?
+
+5. Distributed Systems (40–46)
+
+40. Что такое CAP theorem? CAP theorem
+41. Eventual consistency vs Strong consistency.
+42. Как работает sharding?
+43. Что такое distributed lock?
+44. Что такое circuit breaker? Resilience4j
+45. Как обеспечить exactly-once processing?
+46. Что происходит при сетевом разделении?
+
+6. System Design (47–50)
+
+47. Спроектируй сервис уведомлений на 100 млн пользователей.
+48. Спроектируй систему обработки платежей.
+49. Спроектируй систему аналитики в реальном времени.
+50. Спроектируй аналог Google Drive.
+
+Дополнительные вопросы, которые реально любят на L5
+- Как бы ты мигрировал монолит → микросервисы?
+- Как уменьшить latency с 500 ms до 50 ms?
+- Что бы мониторил в проде?
+- Как провести postmortem после инцидента?
+- Как масштабировать сервис в 100 раз?
+
+
+//
