@@ -1,7 +1,7 @@
 Java Core:
 
 1. Как работает HashMap ?
-2. Gjxtve String immutable ?
+2. Почему String immutable ?
 3. Что делает intern() ?
 4. Разница ArrayList() vs LinkedList.
 5. HashSet внутри.
