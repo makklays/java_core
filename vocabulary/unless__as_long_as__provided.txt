@@ -1,5 +1,5 @@
 
-1. unless - (≈ if not) если не; пока не 
+1. unless - (unless = if ... not) если не; пока не 
 2. as long as - при условии, что; пока 
 3. provided - при условии, что
 
