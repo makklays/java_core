@@ -1,0 +1,69 @@
+Вот список из 50 популярных вопросов для подготовки.
+
+1. Алгоритмы и структуры данных (1–20)
+
+1. Что такое Big O? Как считать сложность алгоритма?
+2. Чем отличаются Array и LinkedList?
+3. Что быстрее: HashMap или TreeMap и почему?
+4. Реализуй стек через массив.
+5. Реализуй очередь через два стека.
+6. Найди дубликат в массиве.
+7. Разверни связный список.
+8. Найди цикл в Linked List.
+9. Что такое DFS и BFS?
+10. Когда использовать рекурсию?
+11. Реализуй бинарный поиск.
+12. Найди медиану двух отсортированных массивов.
+13. Merge Sort vs Quick Sort.
+14. Как работает Heap?
+15. Реализуй LRU Cache.
+16. Что такое Dynamic Programming?
+17. Задача Two Sum.
+18. Longest Substring Without Repeating Characters.
+19. Kth Largest Element.
+20. Lowest Common Ancestor.
+
+2. Coding / LeetCode стиль (21–30)
+
+21. Valid Parentheses.
+22. Merge Intervals.
+23. Group Anagrams.
+24. Top K Frequent Elements.
+25. Word Search.
+26. Number of Islands.
+27. Rotate Matrix.
+28. Longest Palindromic Substring.
+29. Implement Trie.
+30. Serialize / Deserialize Binary Tree.
+
+3. System Design (31–40)
+
+31. Спроектируй URL Shortener.
+32. Как работает Load Balancer?
+33. Как масштабировать чат как WhatsApp?
+34. Спроектируй YouTube.
+35. Спроектируй Google Maps.
+36. Как устроен кеш?
+37. Redis vs Memcached.
+38. Как обеспечить отказоустойчивость?
+39. SQL vs NoSQL.
+40. Как обработать 1 млрд запросов в день?
+
+4. Java / Backend (41–46)
+
+41. Что такое JVM?
+42. Heap vs Stack.
+43. Что такое Garbage Collector?
+44. synchronized vs Lock.
+45. Что такое Deadlock?
+46. Как работает HashMap внутри?
+
+5. Behavioral / Googliness (47–50)
+
+47. Расскажи о сложной задаче, которую решил.
+48. Расскажи про конфликт в команде.
+49. Почему хочешь работать в Google?
+50. Расскажи о проекте, которым гордишься.
+
+
+//
