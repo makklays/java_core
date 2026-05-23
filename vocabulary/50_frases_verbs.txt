@@ -1,0 +1,169 @@
+
+-------------------------
+💻 Написание кода и архитектура (Coding & Architecture)
+
+Build up — наращивать, выстраивать (архитектуру).
+    We need to build up a robust microservice architecture.
+
+Break down — разбивать (задачу/монолит) на части.
+    Let's break down this massive monolithic class into smaller services.
+
+Comment out — закомментировать строку кода.
+    Just comment out this System.out.println() before pushing.
+
+Clean up — приводить в порядок, рефакторить.
+    Time to clean up the legacy code in this controller.
+
+Set up — настраивать, устанавливать (окружение, проект).
+    I need to set up the Spring Boot project structure.
+
+Factor out — выносить (код в отдельный метод/класс) при рефакторинге.
+    We should factor out the DB connection logic into a separate utility class.
+
+Wrap up — обернуть (код в блок/метод), завершать.
+    Let's wrap this database call up in a try-catch block.
+
+Point to — ссылаться на что-то.
+    This variable must point to the new object instance.
+
+Bring in — внедрять, импортировать (зависимости, библиотеки).
+    We need to bring in the Lombok dependency via Maven.
+
+Rule out — исключать (вероятность, архитектурный подход).
+    We can rule out using standard arrays here; we need an ArrayList.
+
+-------------------------
+🚀 Работа с Git и деплой (Git, Deployment & CI/CD)
+
+Roll back — откатывать (коммит, транзакцию, деплой).
+   The deployment failed, we need to roll back the changes immediately.
+
+Spin up — запускать, поднимать (сервер, Docker-контейнер).
+    Can you spin up a new PostgreSQL container locally?
+
+Shut down — выключать, останавливать (сервер).
+    The Spring Boot application will shut down if it runs out of memory.
+
+Push through — продвигать, быстро проталкивать (коммит/фичу).
+    We managed to push the hotfix through to production.
+
+Pull down — скачивать, подтягивать код из удаленного репозитория.
+    Make sure to pull down the latest changes from the main branch.
+
+Check out — переключаться на другую ветку в Git.
+    I will check out the feature/flowerpot-fix branch now.
+
+Set off — запускать, триггерить (пайплайн, процесс).
+    Pushing to main will set off the Jenkins build pipeline.
+
+Go live — выходить в продакшен, запускаться.
+    Our new Java service is ready to go live tomorrow.
+
+Back up — делать резервную копию.
+    Remember to back up the production database before running migration scripts.
+
+Wipe out — полностью стереть, уничтожить.
+    Be careful, this command will wipe out all local untracked files.
+
+-------------------------
+🐛 Тестирование и отладка (Debugging & Testing)
+
+Track down — выслеживать, находить (причину бага).
+    It took me three hours to track down this NullPointerException.
+
+Root out — искоренять, полностью устранять (проблему).
+    We must root out all memory leaks before the release.
+
+Run into — наталкиваться на (ошибку, проблему).
+    I ran into an unhandled exception while testing the API endpoint.
+
+Look into — исследовать, разбираться в проблеме.
+    I will look into why the Hibernate query is so slow.
+
+Sort out — разбираться с чем-то, устранять путаницу.
+    Let's sort out this merge conflict together.
+
+Narrow down — сужать (круг поиска бага).
+    We need to narrow down the cause of this high CPU usage.
+
+Turn out — оказываться.
+    It turned out that the array index was out of bounds.
+
+Throw up — выбрасывать (ошибку/исключение в Java).
+    The method will throw up an IllegalArgumentException if n is negative.
+
+Check for — проверять на наличие чего-либо.
+    Always check for null values before calling a method.
+
+Work around — обходить проблему (костылем или альтернативным путем).
+    We can work around this bug by changing the application property configuration.
+
+-------------------------
+📊 Бизнес-логика, производительность и данные (Data & Performance)
+
+Fill up — заполнять (память, коллекцию).
+    The infinite loop will quickly fill up the Java Heap memory.
+
+Filter out — отфильтровывать, исключать лишнее.
+    Use Java Streams to filter out all empty strings from the list.
+
+Map out — планировать, детально проектировать.
+    We need to map out the entire database schema first.
+
+Log out / Log in — разлогиниться / залогиниться.
+    The system should log the user out after 15 minutes of inactivity.
+
+Pass in — передавать (аргументы в метод).
+    What arguments did you pass in to the canPlaceFlowers method?
+
+Carry out — выполнять, проводить (операцию, тест).
+    The worker thread will carry out the background task.
+
+Speed up — ускорять (работу приложения).
+    Adding an index to the database table will speed up the search queries.
+
+Slow down — замедлять.
+    Heavy garbage collection cycles can slow down the whole application.
+
+Keep track of — отслеживать, вести учет.
+    The application uses a counter to keep track of active sessions.
+
+Turn into — превращать во что-то.
+    Jackson library helps to turn Java objects into JSON.
+
+-------------------------
+🤝 Коммуникация в команде и Agile (Agile, Meetings & Review)
+
+Follow up — развивать тему, продолжить обсуждение позже.
+    Let's follow up on this architectural issue during the next grooming session.
+
+Bring up — поднимать вопрос/тему на обсуждение.
+    I will bring up the technical debt problem at the retrospective.
+
+Point out — указывать на что-то (например, на ошибку в коде).
+    The reviewer pointed out that my time complexity was O(n*m) instead of O(n).
+
+Hand over — передавать дела/задачу другому разработчику.
+    I need to hand over this task to Senior Engineer because I am going on vacation.
+
+Team up — объединяться (для парного программирования).
+    Let's team up to solve this critical production incident.
+
+Hold up — задерживать (процесс, релиз).
+    This block of code is holding up the entire code review process.
+
+Put off — откладывать (задачу, митинг).
+    We have to put off the refactoring until the next sprint.
+
+Catch up — догонять, входить в курс дел.
+    Read the documentation to catch up with the latest project updates.
+
+Sign off on — утверждать, давать официальное согласие.
+    The Product Owner needs to sign off on these technical requirements.
+
+Work on — работать над чем-то.
+    Currently, I am working on optimizing the LeetCode algorithms.
+
+
+//
+
