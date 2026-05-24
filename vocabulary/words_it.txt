@@ -1,4 +1,11 @@
 
+A couple - «пара», «несколько» или «связанный»
+A couple of days — пара дней.
+A couple of tasks — пара задач.
+
+"I need a couple of hours to finish the code review." - (Мне нужна пара часов, чтобы закончить проверку кода).
+
+
 🏃 Управление процессами (Agile / Scrum)
 
     Backlog — список задач на будущее.
