@@ -1,56 +1,61 @@
 
-nice of 
-kind of 
-good of 
-generous of 
-polite of 
-honest of 
-stupid of 
-silly of 
+//------------------
+//  Все эти выражения строятся по одному грамматическому правилу: 
+//  Adjective + OF + somebody + TO DO something
+//------------------
 
-angry about 
-angru with ... for ...
+nice of - мило с (чьей-то) стороны
+kind of - любезно / приятно с (чьей-то) стороны
+good of - хорошо / благородно с (чьей-то) стороны
+generous of - щедро с (чьей-то) стороны
+polite of - вежливо с (чьей-то) стороны
+honest of - честно с (чьей-то) стороны
+stupid of - глупо с (чьей-то) стороны
+silly of - глупо / глупенько с (чьей-то) стороны
 
-annoyed about 
-annoyed with ... for ... 
+angry about - злиться / сердиться из-за (чего-то)
+angru with ... for ... - злиться на (кого-то) за (что-то)
 
-furios about 
-furios with ... for ... 
+annoyed about - раздражен из-за (чего-то)
+annoyed with ... for ... - раздражен на (кого-то) за (что-то)
 
-upset about 
-upset with ... for ...
+furios about - в ярости из-за (чего-то)
+furios with ... for ... - в ярости на (кого-то) за (что-то)
 
-excited about 
-worried about 
-nervous about 
-happy about 
+upset about - расстроен из-за (чего-то)
+upset with ... for ... - расстроен / обижен на (кого-то) за (что-то)
 
-pleased with 
-satisfied with 
-happy with 
-delighted with 
-disappointed with 
+excited about - в восторге от (чего-то), радоваться (чему-то), ждать с нетерпением
+worried about - беспокоиться / переживать о (ком-то или чем-то)
+nervous about - нервничать из-за (чего-то), волноваться о (чем-то)
+happy about   - радоваться (чему-то), быть довольным (чем-то)
 
-surprised by 
-shocked by 
-amazed by 
-astonished by 
-upset at
-upset by 
+pleased with      - доволен (чем-то / кем-то)
+satisfied with    - удовлетворен (чем-то)
+happy with        - доволен / рад (чему-то)
+delighted with    - в восторге от (чего-то), безумно рад (чему-то)
+disappointed with - разочарован (чем-то / кем-то)
 
-impressed with 
-impressed by
+surprised by   - удивлен (чем-то / кем-то)
+shocked by     - шокирован / потрясен (чем-то)
+amazed by      - поражен / восхищен (чем-то) 
+astonished by  - изумлен / сильно поражен (чем-то)
+upset at       - расстроен (чем-то, ситуацией или чьим-то поступком)
+upset by       - огорчен / задет (каким-то действием, событием или человеком)
 
-fed up with 
-fed bored with 
+impressed with - впечатлен чем-то / кем-то
+impressed by   - впечатлен чем-то / кем-то
 
-tired of
+fed up with    - сыт по горло (чем-то / кем-то), надоело
+fed bored with - наскучило (что-то), скучно от (чего-то)
 
-sorry about 
-sorry for 
+tired of       - устал от (чего-то / кого-то), надоело
 
-feel sorry for 
-be sorry for 
+sorry about    - сожалею о (какой-то ситуации, событии или ошибке)
+sorry for      - извиняюсь за (свой конкретный поступок или действие)
+
+feel sorry for - жалеть (кого-то), сочувствовать (кому-то)
+be sorry for   - извиняться за (свой поступок) ИЛИ сожалеть о (чем-то)
 
 
 //
