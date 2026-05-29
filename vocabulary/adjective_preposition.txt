@@ -60,5 +60,9 @@ be sorry for   - извиняться за (свой поступок) ИЛИ с
 I feel sorry for the QA team; they have to test this legacy code without any documentation. - Мне жаль команду тестирования; им приходится тестировать этот устаревший код без какой-либо документации.
 We all feel sorry for the DevOps engineer who is on call during the production release.     - Мы все сочувствуем DevOps-инженеру, который дежурит во время релиза на прод.
 
+I am sorry for breaking the build; I forgot to run the Maven tests locally before pushing.  - Простите, что сломал сборку; я забыл локально прогнать тесты Maven перед пушем.
+She was sorry for the delay in reviewing your Pull Request.                                 - Она извинилась за задержку с ревью вашего пул-реквеста.
+
+
 //
 
