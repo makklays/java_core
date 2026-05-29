@@ -57,6 +57,8 @@ sorry for      - извиняюсь за (свой конкретный пост
 feel sorry for - жалеть (кого-то), сочувствовать (кому-то)
 be sorry for   - извиняться за (свой поступок) ИЛИ сожалеть о (чем-то)
 
+I feel sorry for the QA team; they have to test this legacy code without any documentation. - Мне жаль команду тестирования; им приходится тестировать этот устаревший код без какой-либо документации.
+We all feel sorry for the DevOps engineer who is on call during the production release.     - Мы все сочувствуем DevOps-инженеру, который дежурит во время релиза на прод.
 
 //
 
