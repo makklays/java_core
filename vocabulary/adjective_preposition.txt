@@ -57,6 +57,16 @@ sorry for      - извиняюсь за (свой конкретный пост
 feel sorry for - жалеть (кого-то), сочувствовать (кому-то)
 be sorry for   - извиняться за (свой поступок) ИЛИ сожалеть о (чем-то)
 
+//------------------------
+Examples:
+
+I am tired of fixing merge conflicts in this monolithic repository.                 - Мне надоело решать конфликты слияния в этом монолитном репозитории.
+The team is tired of endless microservices refactoring without clear requirements.  - Команда устала от бесконечного рефакторинга микросервисов без четких требований.
+I’m sorry about the bug in the payment gateway; I will fix it right now.            - Сожалею о баге в платежном шлюзе, я исправлю его прямо сейчас.
+We are sorry about the confusion during yesterday's daily standup.                  - Мы сожалеем о путанице, возникшей во время вчерашнего дейли-созвона.
+I am sorry for force-pushing to the master branch by mistake.                       - Извиняюсь за то, что по ошибке сделал форс-пуш в ветку master.
+Sorry for the late reply, I was deeply focused on a database deadlock issue.        - Извините за поздний ответ, я был полностью погружен в проблему взаимной блокировки БД.
+
 I feel sorry for the QA team; they have to test this legacy code without any documentation. - Мне жаль команду тестирования; им приходится тестировать этот устаревший код без какой-либо документации.
 We all feel sorry for the DevOps engineer who is on call during the production release.     - Мы все сочувствуем DevOps-инженеру, который дежурит во время релиза на прод.
 
