@@ -1,0 +1,85 @@
+
+//--------------------------------------
+//  Verb + to
+//--------------------------------------
+
+talk to - говорить / разговаривать с кем-то
+speak to - говорить / обращаться к кому-то (более официально)
+listen to - слушать кого-то / что-то
+apologise to - извиняться перед кем-то
+explain (something) to (somebody) - объяснять (что-то) (кому-то)
+explain to - объяснять кому-то
+describe to - описывать кому-то
+
+  Describe to me how this algorithm works. - Опиши мне, как работает этот алгоритм.
+  You need to describe your architecture design to the stakeholders. - Вам нужно описать архитектурное решение стейкхолдерам / заказчикам.
+  This metadata describes to the framework how to render the component. - Эти метаданные описывают фреймворку, как рендерить компонент.
+  I need to talk to you. - Мне нужно поговорить с тобой.
+  Can I speak to the manager? - Могу я поговорить с менеджером?
+  You should apologise to him. - Тебе следует извиниться перед ним.
+  She loves to listen to music. - Она любит слушать музыку
+  Please explain to me what happened. - Пожалуйста, объясни мне, что произошло
+
+phone (somebody) - звонить кому-то
+ask (somebody)   - спрашивать кого-то / просить кого-то
+call (somebody)  - звонить / звать кого-то 
+text (somebody)  - писать сообщение (смс) кому-то
+
+  I will phone you tomorrow. - Я позвоню тебе завтра.
+  Call me when you arrive. - Позвони мне, когда приедешь.
+  Text him the address. - Напиши ему адрес в сообщении.
+  Ask your teacher for help. - Спроси у своего учителя помощи.
+
+answer (somebody/something) - отвечать кому-то / на что-то
+ask (somebody) for ... - просить (кого-то) о чем-то / просить что-то
+thank (somebody) - благодарить кого-то
+
+  We want to thank you for everything. - Мы хотим поблагодарить вас за все.
+  He asked the waiter for the bill. - Он попросил у официанта счет.
+  Don't be afraid to ask for help. - Не бойся просить о помощи.
+
+//--------------------------------------
+//  Verb + at
+//--------------------------------------
+  
+look at - смотреть на кого-то / что-то
+stare at - пристально смотреть / уставиться / пялиться на кого-то
+glance at - бросить взгляд / мельком взглянуть на что-то
+have a look at - взглянуть / посмотреть на что-то
+take a look at - взглянуть / ознакомиться с чем-то
+
+  Look at this picture. - Посмотри на эту картину.
+  Let me have a look at your phone. - Дай мне взглянуть на твой телефон.
+  Please take a look at my report. - Пожалуйста, взгляни на мой отчет.
+  He glanced at his watch. - Он мельком взглянул на свои часы.
+
+  Glance — очень быстро (секунда).
+  Look — обычный осознанный взгляд.
+  Stare — долгий, часто неприличный взгляд с широко открытыми глазами.
+  
+laugh at - смеяться над кем-то / чем-то
+
+aim (something) at - целиться (чем-то) в кого-то / направлять на что-то
+point (something) at - указывать (чем-то) на кого-то / направлять в сторону кого-то
+shoot (a gun) at - стрелять (из оружия) в кого-то / по кому-то
+fire (a gun) at - вести огонь / стрелять (из оружия) в кого-то
+
+  Don't point that camera at me. - Не направляй на меня эту камеру.
+  He pointed a finger at the map. - Он ткнул пальцем в карту.
+
+//--------------------------------------
+  
+shout at (somebody) - кричать / орать на кого-то (из-за злости, гнева)
+shout to (somebody) - кричать кому-то (чтобы человек услышал вас издалека)
+
+throw (something) at (somebody) - бросить что-то в кого-то (с целью попасть, ударить или ранить)
+throw (something) to (somebody) - бросить что-то кому-то (чтобы человек поймал)
+
+  The angry boss shouted at his workers. - Разгневанный босс накричал на своих работников.
+  She shouted to me from the other side of the street. - Она крикнула мне с другой стороны улицы.
+  Throw the ball to me! - Брось мне мяч! / Поймай мяч!
+  She threw the keys to her brother. - Она бросила ключи своему брату — чтобы он их поймал.
+
+
+// 
+
