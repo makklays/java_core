@@ -1,0 +1,37 @@
+
+some of — некоторые из / часть от
+most of — большинство из / большая часть от
+none of — никто из / ничто из
+
+  Some of my friends are developers. - Некоторые из моих друзей — разработчики.
+  Most of the team approved the new design. - Большинство членов команды одобрили новый дизайн.
+  None of these links work. - Ни одна из этих ссылок не работает.
+  None of us knew how to fix the issue. - Никто из нас не знал, как исправить проблему.
+
+  Most of the servers are down. - Большинство серверов лежат.
+  Some of the code needs to be refactored. - Часть кода нужно отрефакторить.
+
+-------------------------------------
+ some of     the...    my...
+ most of  +  this...   these...
+ none of     that...   those... etc.
+-------------------------------------
+  all of     it
+ some of     us
+  any of  +  you
+ most of     them
+ none of    
+-------------------------------------
+
+- Do you like this music ?
+- Some of it. Not all of it.
+
+- How many of these people do you know ?
+- None of them / A few of them
+
+Do any of you want to come to a party tonight ?
+I haven't finished the book yet. I've only read half of it. 
+
+
+//
+
