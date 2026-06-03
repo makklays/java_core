@@ -1,0 +1,38 @@
+
+//---------------------------------
+// verb + about / of 
+//---------------------------------
+
+hear about - услышать о / узнать подробности
+hear of - слышать о (знать о самом факте существования)
+hear from - получать известия от (кого-то)
+
+think about - думать о / размышлять / анализировать
+think of - придумать / вспомнить / иметь мнение
+
+dream about - видеть сны о / сниться
+dream of - мечтать о [чем-то]
+
+complain to (somebody) - жаловаться (кому-то)
+complain about - жаловаться на [что-то]
+
+remind (somebody) about - напомнить (кому-то) о [деле/задаче]
+remind (somebody) of - напоминать (кого-то / что-то), быть похожим
+
+-------------
+
+  Please remind the DevOps team about the database credentials. - Пожалуйста, напомни DevOps-команде про доступы к базе данных.
+  This architecture reminds me of my previous project. - Эта архитектура напоминает мне мой предыдущий проект.
+  The team complained about the lack of documentation. - Команда жаловалась на отсутствие документации.
+  Customers are complaining about missing data in their profiles. - Клиенты жалуются на пропажу данных в своих профилях.
+  If the API is slow, users will complain to our support team. - Если API будет тормозить, пользователи будут жаловаться в нашу службу поддержки.
+  I dreamed about fixing production bugs all night. - Мне всю ночь снилось, как я чиню баги на продкшене.
+  Every junior developer dreams of becoming a software architect. - Каждый джуниор-разработчик мечтает о том, чтобы стать архитектором ПО.
+  I need to think about how to implement idempotency keys. - Мне нужно подумать о том, как реализовать ключи идемпотентности.
+  Can you think of a better name for this database index? - Можешь придумать более подходящее имя для этого индекса базы данных?
+  I can't think of his name right now. - Я не могу сейчас вспомнить его имя.
+  What do you think of our new CQRS architecture? - Что ты думаешь о нашей новой архитектуре CQRS? / Какое твоё мнение?
+
+
+//
+
