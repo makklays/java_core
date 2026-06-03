@@ -1,0 +1,59 @@
+
+believe in - верить в [кого-то / что-то]
+specialise in - специализироваться на/в [чем-то]
+succeed in - преуспеть в [чем-то] / успешно сделать
+
+break into - ворваться / взломать / резко войти в сферу
+crash into - врезаться в / въехать в
+drive into - заехать/въехать (внутрь чего-то); врезаться/въехать (в препятствие); загнать в / вогнать в (переносное значение)
+bump into - случайно встретить / натолкнуться на
+run into - натолкнуться на / столкнуться с (проблемой, багом, трудностями); случайно встретить (кого-то); врезаться / въехать (во что-то)
+
+divide (something) into - делить / разделять на [части]
+cut (something) into - резать / разрезать на [части]
+split (something) into - расщеплять / разбивать на [части]
+
+translate into - переводить на [другой язык]
+
+collide with - столкнуться с [чем-то / кем-то]
+fill (something) with - наполнять (что-то) [чем-то]
+provide (somebody) with - обеспечивать (кого-то) [чем-то] / предоставлять (кому-то) [что-то]
+supply (somebody) with - снабжать (кого-то) [чем-то] / поставлять
+
+happen to - случаться с [кем-то / чем-то]
+invite (somebody) to - приглашать (кого-то) на [что-то] / в [что-то]
+prefer (something) to (something) - предпочитать [что-то] [чему-то]
+
+concentrate on - концентрироваться на / сосредоточиться на
+insist on - настаивать на [чем-то]
+spend (money) to - тратить (деньги), чтобы [сделать что-то]
+
+-------------
+
+  You have to spend money to make money. - Вы должны тратить деньги, чтобы зарабатывать деньги / известная поговорка.
+  Don't spend money on useless software. - Не трать деньги на бесполезный софт.
+  The Tech Lead insists on using the Outbox pattern. - Техлид настаивает на использовании паттерна Outbox.
+  We need to concentrate on fixing the database latency. (Нам нужно сосредоточиться на исправлении задержки базы данных.
+  I prefer PostgreSQL to MySQL. - Я предпочитаю PostgreSQL, а не MySQL / больше чем MySQL.
+  I will invite you to the architecture review meeting. (Я приглашу тебя на встречу по разбору архитектуры.
+  What will happen to the data if Kafka goes down? - Что случится с данными, если Kafka упадет?
+  This provider supplies our servers with electricity. - Этот провайдер снабжает наши сервера электроэнергией.
+  The service will provide the client with a unique idempotency key. - Сервис предоставит клиенту уникальный ключ идемпотентности.
+  We need to fill the Kafka event with the credit card data. - Нам нужно наполнить событие Kafka данными кредитной карты.
+  The two threads collided with each other, causing a deadlock. - Два потока столкнулись друг с другом, что вызвало взаимную блокировку.
+
+  Could you translate this documentation into English? - Не мог бы ты перевести эту документацию на английский язык?
+  Let's split this monolithic service into microservices. - Давайте разобьем этот монолитный сервис на микросервисы.
+  We need to divide our application into write and read models. - Нам нужно разделить наше приложение на модели записи и чтения.
+
+  We ran into a production issue. — Мы столкнулись с проблемой на проде.
+  I ran into my former colleague at the conference. — Я случайно встретил своего бывшего коллегу на конференции.
+  The bus lost control and ran into a fence. — Автобус потерял управление и врезался в забор.
+
+  We succeeded in reducing database latency. - Мы преуспели в снижении задержки базы данных / Нам удалось снизить задержку.
+  She specialises in reactive microservices and Kafka. - Она специализируется на реактивных микросервисах и Kafka.
+  We believe in the success of our new product. - Мы верим в успех нашего нового продукта.
+
+
+//
+
