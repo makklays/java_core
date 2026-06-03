@@ -1,0 +1,49 @@
+
+talk about - говорить о / обсуждать [что-то]
+read about - читать о [чем-то] / ознакомиться с [чем-то]
+know about - знать о [чем-то] / быть в курсе [чего-то]
+
+have a discussion about - вести дискуссию / обсуждать [что-то]
+do (something/nothing) about (something) - делать (что-то / ничего) по поводу [чего-то]
+
+//-----------------------
+//  verb + for 
+//-----------------------
+
+ask (somebody) for - просить (кого-то) о чем-то / запрашивать
+apply for - подавать заявку на [что-то]
+wait for - ждать [чего-то / кого-то]
+search (something) for - искать в (чем-то) [что-то]
+leave (something) for - оставлять (что-то) ради [чего-то] / откладывать на потом
+
+take care of - позаботиться о / разобраться с / взять на себя
+care for - волновать / иметь значение / не всё равно
+care about - ухаживать за / испытывать симпатию (редко: любить/хотеть)
+
+look for - искать [что-то / кого-то]
+look after - присматривать за / следить за сохранностью
+
+  I am looking for a bug in the reactive pipeline. - Я ищу баг в реактивной цепочке.
+  Who will look after the servers during the weekend? - Кто будет присматривать за серверами на выходных?
+  Would you care for a cup of coffee? - Не желаете ли чашечку кофе?
+  She stays at home to care for her sick relative. - Она остаётся дома, чтобы ухаживать за больным родственником.
+  As a developer, you should care about code quality. - Как разработчик, ты должен заботиться о качестве кода / тебе должно быть не всё равно.
+  The business doesn't care about refactoring, they only care about features. - Бизнес не волнует рефакторинг, их волнуют только новые фичи.
+  The Outbox worker will take care of sending messages to Kafka. - Воркер аутбокса позаботится о пересылке сообщений в Kafka / возьмет это на себя.
+  Don't worry about the database migration, I'll take care of it. - Не беспокойся о миграции базы данных, я с ней разберусь.
+  The worker will wait for new outbox events. - Воркер будет ждать новых событий аутбокса.
+  We are waiting for Kafka to replicate the message. - Мы ждем, пока Kafka реплицирует сообщение.
+  I need to ask the team for code review. - Мне нужно попросить команду о ревью кода.
+  The client asked for a new credit card feature. - Клиент запросил новую функцию для кредитных карт.
+  A user wants to apply for a new credit card. - Пользователь хочет подать заявку на новую кредитную карту.
+  We need to have a discussion about our system idempotency. - Нам нужно провести обсуждение идемпотентности нашей системы.
+  Let's have a discussion about moving to microservices. - Давайте обсудим переход на микросервисы.
+  I know about Kafka partitioning. - Я знаю о партиционировании в Kafka.
+  Developers should know about race conditions. - Разработчики должны знать о состоянии гонки / Race Conditions.
+  Let's talk about the CQRS pattern. - Давай поговорим о паттерне CQRS.
+  We need to talk about database performance. - Нам нужно обсудить производительность базы данных.
+  I need to read about Transactional Outbox implementation. - Мне нужно почитать о реализации Transactional Outbox.
+
+
+//
+
