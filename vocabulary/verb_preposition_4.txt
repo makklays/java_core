@@ -1,0 +1,59 @@
+
+accuse (somebody) of - обвинять (кого-то) в чем-то
+suspect (somebody) of - подозревать (кого-то) в чем-то
+
+approve of - одобрять [что-то / кого-то]
+disapprove of - не одобрять [что-то / кого-то]
+
+die of - умереть от (прямая, внутренняя причина)
+die from - умереть от (внешняя, косвенная причина)
+
+consist of - состоять из [чего-то]
+
+pay (somebody) for - платить (кому-то) за [что-то]
+thank (somebody) for - благодарить (кого-то) за [что-то]
+forgive (somebody) for - прощать (кого-то) за [что-то]
+
+apologise (to somebody) for - извиняться (перед кем-то) за [что-то]
+blame on - сваливать вину за (что-то) на (кого-то/что-то)
+
+suffer from - страдать от [чего-то]
+protect (somebody/something) from - защищать (кого-то/что-то) от [чего-то]
+
+depend on - зависеть от [чего-то / кого-то]
+rely on - полагаться на / рассчитывать на
+
+live on  - жить на [какую-то сумму] / питаться [чем-то одним]
+congratulate (somebody) on - поздравлять (кого-то) с [чем-то]
+compliment (somebody) on - делать (кому-то) комплимент по поводу [чего-то] / хвалить за [что-то]
+
+-----------------
+
+  The Lead Architect doesn't approve of using global variables. - Ведущий архитектор не одобряет использование глобальных переменных.
+  Does the tech lead approve of our new Outbox design? - Техлид одобряет наш новый дизайн Аутбокса?
+  Senior developers disapprove of skipping unit tests. - Старшие разработчики не одобряют пропуск юнит-тестов.
+  Our CQRS architecture consists of separate write and read databases. - Наша архитектура CQRS состоит из раздельных баз данных на запись и на чтение.
+  The outbox payload consists of raw JSON data. - Полезная нагрузка аутбокса состоит из сырых JSON-данных.
+  The soldier died from his wounds. - Солдат умер от ран.
+  Metaphor: The microservice died from an unexpected traffic spike. - Микросервис умер от неожиданного скачка трафика.
+  He died of a heart attack. - Он умер от сердечного приступа.
+
+  We need to pay AWS for server hosting every month. - Нам нужно каждый месяц платить AWS за хостинг серверов.
+  Thank you for help with the Outbox code. - Спасибо за помощь с кодом Аутбокса.
+  The team forgave the intern for dropping the test database. - Команда простила стажера за то, что он удалил тестовую базу данных.
+  Don't blame the code crash on the network. - Не сваливай вину за падение кода на сеть.
+
+  Our database suffers from high latency during peak hours. - Наша база данных страдает от высоких задержек в часы пик.
+  The Outbox pattern protects the system from data inconsistency. - Паттерн Outbox защищает систему от рассинхронизации данных.
+  The read model depends on Kafka events to stay up to date. - Модель для чтения зависит от событий Kafka, чтобы оставаться актуальной.
+  We can rely on PostgreSQL transactions to insert outbox events safely. - Мы можем положиться на транзакции PostgreSQL для безопасной вставки событий аутбокса.
+  We need to protect our API from DDoS attacks. - Нам нужно защитить наш API от DDoS-атак.
+
+  The Tech Lead complimented him on his clean architecture design. - Техлид похвалил его за чистый дизайн архитектуры.
+  I want to congratulate you on your promotion to Senior Engineer! (Я хочу поздравить тебя с повышением до старшего инженера!
+  It's hard to live on a junior developer's salary in this city. - В этом городе трудно жить на зарплату джуниор-разработчика.
+  During the hackathon, the team lived on pizza and energy drinks. - Во время хакатона команда питалась исключительно пиццей и энергетиками.
+
+
+//
+
