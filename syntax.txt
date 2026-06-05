@@ -1,0 +1,183 @@
+
+1. Переменные: изменяемые и неизменяемые
+
+Для автоматического вывода типов используется ключевое слово var (как в Kotlin/Scala).
+
+- final var или final Тип — константа. Значение нельзя изменить после создания.
+- var или Тип — обычная переменная. Значение можно менять.
+
+final var name = "Иван"; // Константа. Перезаписать name = "Петр" нельзя.
+var age = 25;            // Переменная. Можно сделать age = 26.
+
+2. Структура кода
+
+// В Java блоки кода всегда выделяются фигурными скобками { }. Условия в if обязательно пишутся в круглых скобках.
+if (age >= 18) {
+    System.out.println("Доступ разрешен");
+} else {
+    System.out.println("Доступ запрещен");
+}
+
+3. Switch-выражения с Pattern Matching (аналог match / when)
+
+// В Java 21 switch умеет проверять типы данных и возвращать значение с помощью оператора yield или стрелок ->.
+int day = 1;
+String dayName = switch (day) {
+    case 1 -> "Monday";
+    case 2 -> "Tuesday";
+    default -> "Unknown"; // default обязателен
+};
+
+4. Функции (методы)
+
+// Функции всегда создаются внутри классов. Сначала пишется возвращаемый тип данных (или void, если функция ничего не возвращает), затем имя.
+// Обычный метод
+int sum(int x, int y) {
+    return x + y;
+}
+// Вызов метода (внутри класса)
+int result = sum(5, 10); // result равен 15
+
+5. Lambda (анонимная функция)
+
+// Лямбды в Java используют стрелку ->. Тело пишется либо сразу, либо в фигурных скобках, если там несколько строк. Встроенного слова вроде it в Java нет, имя переменной нужно давать всегда.
+// Использование в коллекциях:
+var list = List.of(1, 2, 3);
+list.stream().map(x -> x * 2).forEach(System.out::println);
+
+6. Создание объектов и классов
+
+// В Java для создания объекта обязательно используется ключевое слово new.
+class Car {
+    final String brand;
+    int speed;
+
+    // Конструктор в Java пишется как метод с именем класса
+    Car(String brand, int speed) {
+        this.brand = brand;
+        this.speed = speed;
+    }
+
+    void drive() {
+        System.out.println("Машина " + brand + " едет со скоростью " + speed + " км/ч");
+    }
+}
+// Создаем машину
+Car myCar = new Car("Toyota", 90);
+
+7. Record (аналог Case class в Scala и Data class в Kotlin)
+
+// Появились в Java для создания лаконичных моделей данных. Конструктор, методы equals(), hashCode(), toString() генерируются автоматически. Все поля в Record по умолчанию неизменяемые (final).
+public record User(Long id, String name) {}
+// Создание:
+User user = new User(1L, "Alex");
+
+8. Коллекции и операции над ними
+
+// В Java для ленивой и красивой обработки коллекций (map, filter) используется Stream API.
+var numbers = List.of(1, 2, 3); // Неизменяемый список
+var doubled = numbers.stream()
+                     .map(x -> x * 2)
+                     .toList();
+
+9. Циклы
+
+var numbers = List.of(1, 2, 3);
+
+// Цикл for-each (аналог for n <- List в Scala)
+for (int n : numbers) {
+    System.out.println(n);
+}
+// Классический цикл со счетчиком
+for (int i = 0; i < 5; i++) {
+    System.out.println(i);
+}
+
+10. Enum
+
+enum Status {
+    ACTIVE, BLOCKED, DELETED
+}
+// Использование:
+Status status = Status.ACTIVE;
+
+11. Ключевое слово static
+
+// Ключевое слово static используется для создания членов класса (переменных и методов), которые принадлежат самому классу, а не его конкретным экземплярам (объектам).
+// Когда используется static:
+// 1 Общая память (Глобальные данные)
+// 2 Утилитарные методы
+// 3 Константы 
+class Car {
+    // Статическое поле — ОДНО на все объекты класса Car
+    public static int carCount = 0; 
+
+    // Обычные поля — у каждой машины свои brand и speed
+    public final String brand;
+    public int speed;
+
+    public Car(String brand, int speed) {
+        this.brand = brand;
+        this.speed = speed;
+        carCount++; // При создании каждой машины увеличиваем общий счетчик
+    }
+    // Статический метод — вызывается через имя класса Car.convertKmhToMph(...)
+    // Ему не нужно знать бренд или скорость конкретной машины
+    public static double convertKmhToMph(double kmh) {
+        return kmh * 0.621371;
+    }
+}
+// Использование в коде:
+Car car1 = new Car("Toyota", 90);
+Car car2 = new Car("BMW", 120);
+// Обращаемся к статическому полю напрямую через класс
+System.out.println(Car.carCount); // Выведет: 2 (всего создано две машины)
+// Вызываем статический метод без создания объекта
+double mph = Car.convertKmhToMph(100); 
+
+12. Interfaces (Интерфейсы)
+
+// Интерфейсы в Java могут содержать как абстрактные методы, так и методы с дефолтной реализацией (через ключевое слово default).
+interface Animal {
+    String sound();
+    
+    default String sleep() { 
+        return "Zzz"; 
+    }
+}
+// Реализация через ключевое слово implements
+class Dog implements Animal {
+    @Override
+    public String sound() {
+        return "Woof";
+    }
+}
+
+13. Шаблоны строк (String Templates)
+
+// В Java 21 появились шаблоны строк через префикс STR.. Переменные или выражения пишутся внутри блоков \{ }.
+String name = "Alex";
+// Больше не нужно складывать строки через плюсы
+String greeting = STR."Hello, \{name}!"; 
+System.out.println(greeting); // Выведет: Hello, Alex!
+
+14. Основные коллекции
+
+List.of(1, 2, 3);              // Неизменяемый список (List)
+new ArrayList<>(List.of(1));   // Изменяемый список (можно делать .add())
+Set.of(1, 2, 3);               // Множество unique элементов (Set)
+Map.of("a", 1, "b", 2);        // Словарь/Карта (Map)
+
+
+//
+
+
+
+
+
+
+
+
+
+
+myCar.drive();
