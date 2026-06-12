@@ -1,0 +1,27 @@
+
+Senior Software Engineer, Threat Intelligence (Google, middle)
+
+Minimum qualifications:
+
+    Bachelor’s degree or equivalent practical experience.
+    5 years of experience with software development in one or more programming languages.
+    3 years of experience with full stack development, across back-end such as Java, Python, Golang, or C++ codebases, and front-end experience including JavaScript or TypeScript, HTML, CSS or equivalent.
+    3 years of experience testing, maintaining, or launching software products.
+    1 year of experience with software design and architecture.
+
+
+Preferred qualifications:
+
+    Experience developing accessible technologies.
+
+Responsibilities
+
+    Design, develop, and implement new features and enhancements for our platform, ensuring scalable, and secure solutions.
+    Contribute to the design and implementation of systems to process, analyze, and store massive amounts of threat intelligence data.
+    Work closely with security experts to understand their needs and translate them into actionable features.
+    Identify opportunities to optimize performance, scalability, and user experience.
+    Stay abreast of the latest threats and technologies to ensure our platform remains effective.
+
+
+//
+
