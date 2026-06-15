@@ -8,6 +8,39 @@
 //   AWAY / BACK
 //------------------
 
+away = away from home  —  в отъезде, не дома, в гостях
+away = away from a place, a person etc.  —  прочь, в сторону, подальше (от места, человека и т.д.)
+
+
+other verbs + away 
+----------------------------
+get away = escape, leave with difficulty  —  сбежать, вырваться или уйти с трудом
+get away with (something) = do something wrong without being cought  —  сойти с рук, избежать наказания за проступок
+
+keep away (from ...) = don't go near  —  держаться подальше, не подходить близко
+give (something) away = give it to somebody else because you don't want it any more  —  отдать, подарить вещь (потому что она больше не нужна) или выдать секрет
+
+put (something) away  —  put it in the place where it is ususally kept  —  убрать вещь на место (туда, где она обычно хранится)
+throw (something) away = put it in the ribbish  —  выбросить вещь в мусор
+
+
+other verbs + back
+----------------------------
+wave back  —  помахать в ответ
+smile back  —  улыбнуться в ответ
+shout back  —  крикнуть в ответ
+hit (somebody) back  —  ударить в ответ (дать сдачи)
+
+call (somebody) back = return a phone call  —  перезвонить кому-то
+phone (somebody) back  —  перезвонить кому-то (по телефону)
+ring (somebody) back   —  перезвонить кому-то (британский вариант)
+
+get back to (somebody) = reply to them by pgone etc.  —  ответить кому-то позже (по телефону, почте и т.д.) или связаться снова
+look back (on something) = think about what happened in the past  —  вспоминать прошлое или оглядываться на прожитое
+
+pay back money  —  вернуть деньги или выплатить долг
+pay somebody back  —  вернуть кому-то долг или отомстить кому-то (отплатить той же монетой)
+
 
 //
 
