@@ -1,3 +1,8 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 14.06.2026
+ */
 
 //------------------
 //    ON/OFF (2)
