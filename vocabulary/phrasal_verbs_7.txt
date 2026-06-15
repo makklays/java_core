@@ -1,1 +1,50 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 15.06.2026
+ */
+
+//------------------
+//    UP
+//------------------
+
+go up (to) - подойти к кому-то или к чему-то
+come up (to) - приблизиться или подойти ближе к говорящему
+walk up (to) - подойти пешком вплотную к объекту
+
+catch up (with somebody) - догнать ушедшего вперед или пересечься/поболтать с кем-то
+catch (somebody) up - догнать кого-то, кто находится впереди вас
+
+keep up (with somebody) = continue at the same speed or level - идти в ногу или успевать за кем-то
+
+set up = start it - основать бизнес, запустить процесс или настроить что-то
+take up = start doing it - начать заниматься хобби, спортом или новым делом
+fix up (a meeting etc.) = arrange it - организовать, устроить или согласовать встречу
+
+grow up = become an adult - вырасти, повзрослеть или стать взрослым
+bring up (a child) = raise, look after a child - вырастить, воспитать или выкормить ребенка
+
+clean up - навести чистоту, отмыть или генерально убраться
+clear up - убрать вещи по местам или проясниться (о погоде)
+tidy up - прибрать комнату, навести порядок или прилизать
+
+wash up  = wash the plates, dishes etc. after a meal - помыть посуду после еды
+
+end up (somewhere) - оказаться или очутиться где-то в итоге
+end up (doing something etc.) - в конце концов сделать что-то или прийти к чему-то
+
+give up = stop trying - сдаться, опустить руки или прекратить попытки
+give (something) up = stop doing it - бросить привычку или перестать заниматься чем-то
+
+make up (something) - выдумать историю, сочинить что-то или помириться
+(be) made up of (something) - состоять из чего-либо или формироваться из частей
+
+take up (space or time) = use space or time - занимать, отнимать или тратить место/время
+turn up = arrive, appear - неожиданно прийти, объявиться или внезапно найтись
+show up = arrive, appear - прийти, показаться или явиться куда-либо
+
+use (something) up = use all of it so that nothing is left - израсходовать полностью или использовать без остатка
+
+
+//
 
