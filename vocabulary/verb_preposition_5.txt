@@ -1,3 +1,8 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.06.2026
+ */
 
 believe in - верить в [кого-то / что-то]
 specialise in - специализироваться на/в [чем-то]
