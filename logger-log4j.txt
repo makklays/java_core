@@ -78,5 +78,3 @@ log4j.appender.stdout.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss}
 
 //
 
-
-//
