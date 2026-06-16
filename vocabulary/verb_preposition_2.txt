@@ -1,3 +1,8 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.06.2026
+ */
 
 talk about - говорить о / обсуждать [что-то]
 read about - читать о [чем-то] / ознакомиться с [чем-то]
