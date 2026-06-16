@@ -1,3 +1,8 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.06.2026
+ */
 
 1. unless - (unless = if ... not) если не; пока не 
 2. as long as - при условии, что; пока 
