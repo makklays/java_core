@@ -1,9 +1,18 @@
 Experience:
 
+I had been working for more than 17 years with PHP before I started to work with Java.
+I dream of becoming a Senior Java Software Engineer and sometimes dream about working in international teams in english.
+
+In my work, I have used different architectural and technical approaches depending on the project. 
+For example, I have used the Saga pattern when working with microservices.
+I think that microservices are very important nowadays. 
+But I won't focus on its too much and will move on to other technologies...
+
+
 I'm good at Java. I prefer working with Java rather than Pyton or Scala. However, I'm interested in learning Python and its AI frameworks like PyTorch and TensorFlow. 
 I like Kotlin because of its concise code. I'm also interested in learning Scala 3 and building a security project with it. 
 
-What can I say about my previous project ?
+What can I say about my previous project ?...
 
 
 //
