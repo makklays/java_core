@@ -278,3 +278,7 @@ List<User> users = query.getResultList();
     В чистом JPA через setFirstResult и setMaxResults у запроса.
 
 17. 
+
+
+//
+
