@@ -1,3 +1,8 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.05.2024
+ */
 
 /* TRIM */
 String str = " string Text ";
@@ -16,4 +21,7 @@ while (i < s.length() && Character.isWhitespace(s.charAt(i))) {
     i++;
 }
 String ltrim = s.substring(i);
+
+
+//
 
