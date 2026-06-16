@@ -1,3 +1,9 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 17.06.2026
+ */
+
 Experience:
 
 I had been working for more than 17 years with PHP before I started to work with Java.
