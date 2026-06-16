@@ -1,3 +1,8 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.06.2026
+ */
 
 accuse (somebody) of - обвинять (кого-то) в чем-то
 suspect (somebody) of - подозревать (кого-то) в чем-то
