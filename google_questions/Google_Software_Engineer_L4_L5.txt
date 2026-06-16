@@ -1,3 +1,9 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.06.2026
+ */
+
 Вот список из 50 вопросов для подготовки.
 
 1. Java Core + JVM (1–15)
