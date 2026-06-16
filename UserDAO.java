@@ -1,6 +1,12 @@
 /**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.05.2026
+ */
+
+/**
  * Class UserDAO
- **/
+ */
 
 class UserDAO 
 {
@@ -36,4 +42,7 @@ class UserDAO
         '}';
     }
 }
+
+
+//
 
