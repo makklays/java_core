@@ -1,3 +1,8 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.05.2024
+ */
 
 1. Переменные: изменяемые и неизменяемые
 
@@ -171,13 +176,5 @@ Map.of("a", 1, "b", 2);        // Словарь/Карта (Map)
 
 //
 
-
-
-
-
-
-
-
-
-
 myCar.drive();
+
