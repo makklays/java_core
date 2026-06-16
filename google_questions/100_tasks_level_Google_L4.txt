@@ -1,3 +1,9 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.06.2026
+ */
+
 Вот программа из 100 практических задач уровня Google L4 (Java Backend).
 
 Блок 1. Arrays + HashMap (1–15)
