@@ -1,3 +1,8 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.05.2026
+ */
 
 //-- ¿Donde esta mi torro bull ? --
 
@@ -21,5 +26,6 @@ bullGold.reverse(); // П anelA ))
 //
 // Пирс Бросмен смотрит на Штиль Швайгера - крассавчик ! )))
 //
+
 
 //-- ¿ Yo busco nuevo punto o viejo ? -- 
