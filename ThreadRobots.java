@@ -1,3 +1,8 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.05.2026
+ */
 
 // class Robot 
 
@@ -30,4 +35,6 @@ public static void main(String[] args)
   myThread11.start();
 }
 
-.
+
+//
+
