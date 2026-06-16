@@ -86,3 +86,8 @@ System.out.println( myQueue.pollLast() ); // get last element and luego remove e
 System.out.println( myQueue.peekFirst() ); // get first element and luego remove element 
 System.out.println( myQueue.peekLast() ); // get last element and luego remove element 
 
+
+//
+
+
+
