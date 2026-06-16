@@ -5,44 +5,37 @@
  */
 
 1. Set up (Настраивать, разворачивать)
-We need to set up a new Spanner database instance for this microservice.
-Нам нужно настроить (развернуть) новый инстанс базы данных Spanner для этого микросервиса
+We need to set up a new Spanner database instance for this microservice - Нам нужно настроить (развернуть) новый инстанс базы данных Spanner для этого микросервиса
 
-2. Check in (Закоммитить и отправить код)
-I will check in the fix as soon as the pre-submit checks pass.
-Я закоммичу (отправлю) фикс, как только пройдут предварительные проверки (pre-submit проверки)
+2. Check in (регистрироваться или отмечаться)
 
-3. Spin up (Быстро запустить, поднять)
-Let me spin up a local instance to reproduce this NullPointerException.
-Дай мне быстро поднять (запустить) локальный инстанс, чтобы воспроизвести этот NullPointerException
+3. Spin up (раскрутить или быстро запустить, поднять)
+Let me spin up a local instance to reproduce this NullPointerException - Дай мне быстро поднять (запустить) локальный инстанс, чтобы воспроизвести этот NullPointerException
 
-4. Roll back (Откатить изменения)
-The production logs show high latency, we must roll back the latest CL (Changelist).
-Логи на проме (продакшене) показывают высокую задержку (latency), мы должны немедленно откатить последний CL (пул-реквест/коммит)
+4. Roll back (Откатить изменения или вернуться к прежнему состоянию)
+The production logs show high latency, we must roll back the latest CL (Changelist) - Логи на проме (продакшене) показывают высокую задержку (latency), мы должны немедленно откатить последний CL (пул-реквест/коммит)
 
-5. Look into (Исследовать, разбираться)
-I'm looking into the memory leak in the production cluster right now.
-Я прямо сейчас разбираюсь с утечкой памяти в продакшн-кластере
+5. Look into (Исследовать, разбираться или расследовать)
+I'm looking into the memory leak in the production cluster right now - Я прямо сейчас разбираюсь с утечкой памяти в продакшн-кластере
 
 6. Break down (Разбивать на части)
-This CL is too big. Please break it down into smaller, independent changes.
-Этот пул-реквест (CL) слишком большой. Пожалуйста, разбей его на более мелкие, независимые изменения
+Let's break down the project into steps - Давайте разобьем проект на шаги
+This CL is too big. Please break it down into smaller, independent changes - Этот пул-реквест (CL) слишком большой. Пожалуйста, разбей его на более мелкие, независимые изменения
 
-7. Clean up (Проводить рефакторинг, чистить код)
-Could you clean up these legacy annotations before submitting the code?
-Не мог бы ты почистить эти устаревшие (легаси) аннотации перед тем, как отправлять код?
+7. Clean up (убраться, навести порядок, очистить или исправить ошибки)
+Could you clean up these legacy annotations before submitting the code? - Не мог бы ты почистить эти устаревшие (легаси) аннотации перед тем, как отправлять код?
 
-8. Run into (Наткнуться, столкнуться с проблемой)
-I ran into a strange dependency conflict while upgrading the Java version.
-Я наткнулся на странный конфликт зависимостей, пока обновлял версию Java
+8. Run into (случайно встретить, столкнуться (с проблемой) или врезаться)
+I ran into a strange dependency conflict while upgrading the Java version - Я наткнулся на странный конфликт зависимостей, пока обновлял версию Java
 
-9. Point out (Указать на что-то, заметить)
-Thanks for pointing out that this ArrayList is not thread-safe here.
-Спасибо, что указал на то, что этот ArrayList здесь не потокобезопасен
+9. Point out (указать, обратить внимание или заметить)
+Thanks for pointing out that this ArrayList is not thread-safe here - Спасибо, что указал на то, что этот ArrayList здесь не потокобезопасен
 
-10. Follow up (Связаться позже, продолжить обсуждение)
-I'll follow up with the SRE team regarding our deployment block.
-Я свяжусь с командой SRE (сисадминами/девопсами), чтобы узнать статус по нашей блокировке деплоя
+10. Follow up (продолжить действия, довести до конца, проверить результат или напомнить)
+I'll follow up with the SRE team regarding our deployment block - Я свяжусь с командой SRE (сисадминами/девопсами), чтобы узнать статус по нашей блокировке деплоя
+I will follow up with him tomorrow - Я свяжусь с ним завтра, чтобы узнать, как дела / напомнить о себе
+
+follow-up meeting — последующая/встречная встреча для подведения итогов
 
 
 //
