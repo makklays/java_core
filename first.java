@@ -1,3 +1,9 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.05.2024
+ */
+
 package 'ATB-Terminator';
 
 import java.util.Scanner;
@@ -221,3 +227,7 @@ Terminator termit = Terminator('Termit-T1', '2023');
 termit.getInfo();
 termit.getModel();
 termit.setCriptoPrice(1.1);
+
+
+//
+
