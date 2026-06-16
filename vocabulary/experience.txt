@@ -1,0 +1,9 @@
+Experience:
+
+I'm good at Java. I prefer working with Java rather tan Pyton or Scala. However, I'm interestedin learning Pythonand its AI frameworks like PyTorch and TensorFlow. 
+I like Kotlin because of its concise code. I'm also interested in learning Scala and building a Security projects with it. 
+
+What can I say about my previous project ?
+
+
+//
