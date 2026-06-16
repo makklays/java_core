@@ -1,3 +1,8 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.05.2025
+ */
 
 // 
 Integer[] numbers = new int[] {1, 2, 3, 4, 5};
