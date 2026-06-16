@@ -1,4 +1,8 @@
-
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.06.2026
+ */
 
 1. Remember - Помнить
 
