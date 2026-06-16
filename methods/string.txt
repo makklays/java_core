@@ -1,4 +1,8 @@
-
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.05.2024
+ */
 
 1. Проверки и свойства строки
 
