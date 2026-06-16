@@ -1,3 +1,8 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.05.2024
+ */
 
 Установка и подготовка среды
 Выбор среды:
@@ -45,4 +50,7 @@ kubectl expose deployment myapp --type=NodePort --port=8080
 
 kubectl create configmap my-config --from-literal=key=value
 kubectl create secret generic my-secret --from-literal=password=123456
+
+
+//
 
