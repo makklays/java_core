@@ -1,3 +1,8 @@
+/**
+ * company: TechMatrix18
+ * author: Alexander Kuziv 
+ * date: 01.05.2026
+ */
 
 // Tread 
 
@@ -22,4 +27,6 @@ public static void main(String[] args)
   myThread2.start();
 }
 
-.
+
+//
+
