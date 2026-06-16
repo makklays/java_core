@@ -4,7 +4,7 @@
  * date: 01.06.2026
  */
 
-1. Set up (Настраивать, разворачивать)
+1. Set up (настраивать, разворачивать)
 We need to set up a new Spanner database instance for this microservice - Нам нужно настроить (развернуть) новый инстанс базы данных Spanner для этого микросервиса
 
 2. Check in (регистрироваться или отмечаться)
@@ -12,13 +12,13 @@ We need to set up a new Spanner database instance for this microservice - Нам
 3. Spin up (раскрутить или быстро запустить, поднять)
 Let me spin up a local instance to reproduce this NullPointerException - Дай мне быстро поднять (запустить) локальный инстанс, чтобы воспроизвести этот NullPointerException
 
-4. Roll back (Откатить изменения или вернуться к прежнему состоянию)
+4. Roll back (откатить изменения или вернуться к прежнему состоянию)
 The production logs show high latency, we must roll back the latest CL (Changelist) - Логи на проме (продакшене) показывают высокую задержку (latency), мы должны немедленно откатить последний CL (пул-реквест/коммит)
 
-5. Look into (Исследовать, разбираться или расследовать)
+5. Look into (исследовать, разбираться или расследовать)
 I'm looking into the memory leak in the production cluster right now - Я прямо сейчас разбираюсь с утечкой памяти в продакшн-кластере
 
-6. Break down (Разбивать на части)
+6. Break down (разбивать на части)
 Let's break down the project into steps - Давайте разобьем проект на шаги
 This CL is too big. Please break it down into smaller, independent changes - Этот пул-реквест (CL) слишком большой. Пожалуйста, разбей его на более мелкие, независимые изменения
 
