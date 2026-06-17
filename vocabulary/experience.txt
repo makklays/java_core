@@ -18,7 +18,14 @@ But I won't focus on its too much and will move on to other technologies...
 I'm good at Java. I prefer working with Java rather than Pyton or Scala. However, I'm interested in learning Python and its AI frameworks like PyTorch and TensorFlow. 
 I like Kotlin because of its concise code. I'm also interested in learning Scala 3 and building a security project with it. 
 
+
 What can I say about my previous project ?...
+
+On my previous project I had to + V
+I was responsible for + noun/V-ing
+I worked very closely with + N
+I had a minor issue with ...
+The projectallowed me to put my knowledge of ... into practice.
 
 
 //
