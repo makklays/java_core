@@ -44,6 +44,13 @@ StringBuffer is the same as StringBuilder but thread-safe and is used in concurr
 StringBuilder is not thread-safe.
 
 - What is the difference between ArrayList and LinkedList in Java?
+- ArrayList and LinkedList are implementations of the List interface.
+ArrayList is backed by an array. I can get the value from ArrayList for time complexity O(1). 
+LinkedList doesn't  have index but it consists of nodes where each node has references to the next and previous elements. 
+I can add a new value to LinkedList for time complexity O(1) because it will change references only to left and right values. 
+Unlike to ArrayList that will add or delete a new value and shift elements, which takes O(n) time.
+
+- What is the difference between Method Overloading and Method Overriding in Java?
 - 
 
 //
