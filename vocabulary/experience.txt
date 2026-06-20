@@ -29,3 +29,14 @@ The projectallowed me to put my knowledge of ... into practice.
 
 
 //
+
+- What is the difference between final, finally, and finalize in Java?
+- There are three special words from Java.
+final - uses for variables, class or methods and indicates that they cannot be changed after creating.
+finally - it is the special word is used at blocks try-catch-finally. Block finally will always execute after blocks try-catch.
+finalize - it is the method that used to clean up resources from memory for garbage collector.
+
+- What is the difference between String, StringBuilder, and StringBuffer?
+
+//
+
