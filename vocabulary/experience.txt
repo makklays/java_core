@@ -37,6 +37,14 @@ finally - it is the special word is used at blocks try-catch-finally. Block fina
 finalize - it is the method that used to clean up resources from memory for garbage collector.
 
 - What is the difference between String, StringBuilder, and StringBuffer?
+- String - it is the immutable data type in Java. 
+If I need to modify a string and work with string I will use type of data StringBuilder.
+StringBuilder is used for changing the value of string and concatenating string, for example.
+StringBuffer is the same as StringBuilder but thread-safe and is used in concurrent applications. 
+StringBuilder is not thread-safe.
+
+- What is the difference between ArrayList and LinkedList in Java?
+- 
 
 //
 
