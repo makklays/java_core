@@ -51,7 +51,17 @@ I can add a new value to LinkedList for time complexity O(1) because it will cha
 Unlike to ArrayList that will add or delete a new value and shift elements, which takes O(n) time.
 
 - What is the difference between Method Overloading and Method Overriding in Java?
+- When I have method in class A, for example, this method called sound() and method sound() in class B. 
+And class B extends class A, the method sound() in class B overrides the method from class A. Also this method can have an annotation @Override.
+When I have a class with some methods and they all have a name fun1() but all they have different parameter lists - these methods are overloading.
+In many cases, it is constructors with diferent count parameters.
+
+Overriding happens between a superclass and a subclass when a method has the same name and signature. Overloading happens within the same class 
+when methods have the same name but different parameters, like in overloaded constructors.
+
+- What is the Difference between == and .equals() in Java?
 - 
+
 
 //
 
