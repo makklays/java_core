@@ -11,6 +11,7 @@ We need to set up a new Spanner database instance for this microservice - Нам
 
 3. Spin up (раскрутить или быстро запустить, поднять)
 Let me spin up a local instance to reproduce this NullPointerException - Дай мне быстро поднять (запустить) локальный инстанс, чтобы воспроизвести этот NullPointerException
+Let me spin up a local environment for the project - Позволь мне быстро поднять (запустить) локальное окружение для проекта.
 
 4. Roll back (откатить изменения или вернуться к прежнему состоянию)
 The production logs show high latency, we must roll back the latest CL (Changelist) - Логи на проме (продакшене) показывают высокую задержку (latency), мы должны немедленно откатить последний CL (пул-реквест/коммит)
