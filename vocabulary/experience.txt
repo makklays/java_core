@@ -82,7 +82,7 @@ Heap has other objects and methods.
 Actually, it's the other way around. Stack memory stores local variables, primitives, and references to objects, and it's thread-safe. 
 Heap memory stores the actual objects themselves, and it is managed by the Garbage Collector.
 
-- What is the difference between String, StringBuilder, and StringBuffer?
+- Is Java "pass-by-value" or "pass-by-reference"?
 - 
 
 
