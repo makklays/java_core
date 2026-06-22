@@ -83,7 +83,10 @@ Actually, it's the other way around. Stack memory stores local variables, primit
 Heap memory stores the actual objects themselves, and it is managed by the Garbage Collector.
 
 - Is Java "pass-by-value" or "pass-by-reference"?
-- 
+- Java is strictly pass-by-value. There is no pass-by-reference in Java.
+
+If you change the object's attributes inside a method (obj.setName("New")), the changes are visible outside because both references 
+point to the same object. However, if you reassign the reference inside the method (obj = new Object()), it does not change the original object outside.
 
 
 //
