@@ -63,6 +63,19 @@ when methods have the same name but different parameters, like in overloaded con
 - == is used to compare by references. Method .equals() is used to compare by values.
 
 - What is the contract between equals() and hashCode() in Java?
+- There is the contract between equals() and hashCode(), if classes equel bt equals() that classes equel by hashCode().
+But if classes equel by hashCode() that doesn't mean classes equel by equals().
+
+The contract states that if two objects are equal according to equals(), they must have the same hashCode(). 
+However, if two objects have the same hashCode(), they are not required to be equal according to equals() — this is called a collision.
+
+- What is the difference between Checked and Unchecked exceptions in Java?
+- 
+
+Checked exceptions are checked at compile-time. The developer is forced to handle them using try-catch or declare them with throws. 
+Unchecked exceptions happen at runtime and inherit from RuntimeException. They usually indicate programming errors and don't require mandatory handling.
+
+- What is the difference between Heap and Stack memory in Java?
 - 
 
 
