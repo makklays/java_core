@@ -76,8 +76,14 @@ Checked exceptions are checked at compile-time. The developer is forced to handl
 Unchecked exceptions happen at runtime and inherit from RuntimeException. They usually indicate programming errors and don't require mandatory handling.
 
 - What is the difference between Heap and Stack memory in Java?
-- 
+- Stack has references to variables and primitive types. 
+Heap has other objects and methods.
 
+Actually, it's the other way around. Stack memory stores local variables, primitives, and references to objects, and it's thread-safe. 
+Heap memory stores the actual objects themselves, and it is managed by the Garbage Collector.
+
+- What is the difference between String, StringBuilder, and StringBuffer?
+- 
 
 //
 
