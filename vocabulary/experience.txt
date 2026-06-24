@@ -88,6 +88,9 @@ Heap memory stores the actual objects themselves, and it is managed by the Garba
 If you change the object's attributes inside a method (obj.setName("New")), the changes are visible outside because both references 
 point to the same object. However, if you reassign the reference inside the method (obj = new Object()), it does not change the original object outside.
 
+- What is the purpose of the volatile keyword in Java, and what guarantees does it provide?
+- The volatile keyword is used in multithreading to ensure visibility of variables across threads. 
+It instructs the JVM and CPU to always read and write the variable directly from/to the main memory (RAM), completely bypassing CPU caches.
 
 //
 
