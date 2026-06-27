@@ -77,7 +77,15 @@ A couple of tasks — пара задач.
 
 Obviously        - очевидно, конечно
 Obviously set up - очевидная подстава
+to isolate       - изолировать, отделять
+to track         - отслеживать
+to spy           - шпионить 
+to observe       - наблюдать
+to cover         - покрывать, охватывать 
 
+To look after / To take care of — приглядывать, заботиться
+
+We isolate the service from the database by mocking the repository.
 
 //
 
