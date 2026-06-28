@@ -87,5 +87,8 @@ To look after / To take care of — приглядывать, заботитьс
 
 We isolate the service from the database by mocking the repository.
 
+words
+
+
 //
 
