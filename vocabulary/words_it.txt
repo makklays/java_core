@@ -89,6 +89,10 @@ We isolate the service from the database by mocking the repository.
 
 words
 
+Under the hood - под капотом 
+
+Let's see what is happening under the hood. → Давайте посмотрим, как это устроено внутри.
+
 
 //
 
