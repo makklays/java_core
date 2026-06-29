@@ -1,0 +1,105 @@
+
+
+from_memory - на память 
+
+//---------------------------------------    
+
+1. Массивы (базовый инструмент)
+  Массивы используются везде, где размер данных фиксирован.
+
+Объявление и инициализация:
+- int[] arr = new int[n]; — пустой массив нулей.
+- int[] arr = {1, 2, 3}; — инлайн-инициализация.
+- int[][] matrix = new int[rows][cols]; — двумерный массив (графы, матрицы, DP).
+Свойства:
+- arr.length — длина массива (это поле, без скобок!).
+
+2. Списки (ArrayList)
+  Используются, когда размер структуры динамический (например, возврат списка путей в графе).
+
+- List<Integer> list = new ArrayList<>(); — стандартное объявление.
+- list.add(val); — добавление в конец.
+- list.get(i); — чтение по индексу.
+- list.size(); — размер (это метод, со скобками!).
+- List<Integer> list = Arrays.asList(1, 2, 3); — быстрая инициализация (но такой список фиксированной длины).
+
+3. Очереди и Стеки (ArrayDeque)
+  Критично для обходов графов (BFS/DFS) []. Забудьте про класс Stack, в Java для всего используется ArrayDeque [].
+
+Для BFS (Очередь):
+- Queue<Integer> queue = new ArrayDeque<>();
+- queue.offer(val); — добавить в конец [].
+- int curr = queue.poll(); — достать из начала (вернет null, если пусто) [].
+
+Для DFS / Стек (LIFO):
+- Deque<Integer> stack = new ArrayDeque<>();
+- stack.push(val); — положить наверх [].
+- int curr = stack.pop(); — достать сверху (выбросит ошибку, если пусто) [].
+
+4. Хэш-таблицы и Множества (HashMap и HashSet)
+  Главное оружие для оптимизации скорости с O(N²) до O(N).
+
+HashSet (уникальность):
+- Set<String> set = new HashSet<>();
+- set.add(val); [], set.contains(val); — возвращает true/false за O(1) [].
+
+HashMap (частотные словари, маппинг):
+- Map<Character, Integer> map = new HashMap<>();
+- map.put(key, val); [], map.get(key); []
+- map.getOrDefault(key, 0); — знать обязательно! Спасает от лишних if-проверок при подсчете символов.
+Итерация по Map: for (Map.Entry<Character, Integer> entry : map.entrySet()) { ... } — единственный синтаксис обхода, который нужно помнить.
+
+5. Очередь с приоритетом (PriorityQueue)
+  Нужна для задач на «Топ-K элементов», слияние потоков или алгоритм Дейкстры.
+
+- PriorityQueue<Integer> minHeap = new PriorityQueue<>(); — по умолчанию хранит наименьший элемент на вершине.
+- PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a, b) -> b - a); — лямбда-выражение для разворота приоритета (наибольший на вершине).
+- Методы те же, что у очереди: offer(), poll(), peek() [].
+
+6. Сортировка (Классы-утилиты)
+  В Google вас могут попросить отсортировать кастомные данные (например, интервалы по времени начала).
+
+- Arrays.sort(arr); — сортировка примитивного массива.
+- Collections.sort(list); — сортировка списка.
+
+Лямбда для объектов / матриц:
+- Arrays.sort(matrix, (a, b) -> Integer.compare(a[0], b[0])); — сортировка строк матрицы по первому элементу (безопасный способ без переполнения int).
+
+7. Приведение типов и Математика (Math)
+
+- Math.max(a, b); / Math.min(a, b); — постоянно используются при обновлении глобального максимума/минимума (например, длины окна).
+- Math.abs(a); — модуль числа.
+- Integer.MAX_VALUE; / Integer.MIN_VALUE; — константы для инициализации переменных (например, если ищем минимум, переменную изначально ставим в Integer.MAX_VALUE).
+
+Резюме: Главные синтаксические ловушки, где ошибаются 90% кандидатов
+1. Длина: у массива — arr.length, у строки — s.length(), у коллекций — list.size() [].
+2. Сравнение объектов: Строки и другие объекты сравниваем только через .equals(), примитивы (int, char) — через == [].
+3. Примитивы в генериках: Нельзя писать List<int>, только List<Integer>.
+
+java.util.HashSet
+java.util.LinkedHashSet
+java.util.TreeSet
+java.util.ArrayList
+java.util.LinkedList
+java.util.HashMap
+java.util.LinkedHashMap
+java.util.TreeMap
+java.util.PriorityQueue
+java.util.ArrayDeque
+java.util.Vector
+java.util.Stack
+java.util.Hashtable
+
+java.lang.String
+java.lang.StringBuilder
+java.lang.Character
+
+java.lang.Math
+java.lang.Integer
+java.lang.Long
+
+java.util.Arrays
+java.util.Collections
+
+
+//
